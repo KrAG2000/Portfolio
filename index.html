@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The evolving portfolio of Kartik Agnihotri, a software engineer building backend systems and AI products."
+    />
+    <meta name="theme-color" content="#f2f0e9" />
+    <title>Kartik Agnihotri | Portfolio Archive</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#archive">Skip to archive</a>
+
+    <header class="site-header wrap">
+      <a class="monogram" href="./" aria-label="Kartik Agnihotri, home">KA<span>.</span></a>
+      <div class="header-note" aria-label="Archive status">
+        <span class="pulse" aria-hidden="true"></span>
+        Portfolio archive
+      </div>
+      <a class="quiet-link" href="mailto:agni5kartik@gmail.com">Say hello <span>↗</span></a>
+    </header>
+
+    <main>
+      <section class="hero wrap" aria-labelledby="page-title">
+        <div class="hero-index" aria-hidden="true">00 / INDEX</div>
+        <div class="hero-copy">
+          <p class="eyebrow">Kartik Agnihotri · Software Engineer</p>
+          <h1 id="page-title">Work changes.<br /><em>This is the record.</em></h1>
+          <p class="lede">
+            A versioned collection of the systems I’ve built, the problems I’ve followed,
+            and the engineer I was becoming at each turn.
+          </p>
+        </div>
+        <div class="orbit" aria-hidden="true">
+          <div class="orbit-ring"></div>
+          <div class="orbit-core">KA</div>
+          <span class="orbit-dot"></span>
+          <span class="orbit-label">BUILD / LEARN / REPEAT</span>
+        </div>
+      </section>
+
+      <section class="archive wrap" id="archive" aria-labelledby="archive-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">The archive</p>
+            <h2 id="archive-title">Choose a chapter.</h2>
+          </div>
+          <p class="archive-count"><span id="version-count">01</span> published</p>
+        </div>
+
+        <div class="version-list" id="version-list" aria-live="polite">
+          <noscript>
+            <a class="version-card" href="v1/">
+              <span>Chapter 01 · Fragmatic</span>
+              <strong>Systems that work<br />when nobody is watching.</strong>
+            </a>
+          </noscript>
+        </div>
+      </section>
+
+      <section class="archive-note wrap" aria-labelledby="archive-note-title">
+        <p class="eyebrow">Why versions?</p>
+        <h2 id="archive-note-title">A résumé is a snapshot.<br />A career is a sequence.</h2>
+        <p>
+          Each chapter pairs the facts with the texture around them: working principles,
+          side explorations, and a small interactive idea from that period.
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer wrap">
+      <p>Engineering systems, one layer deeper.</p>
+      <p>© <span id="year"></span> Kartik Agnihotri</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "version": "v1",
+  "chapter": "01",
+  "company": "Fragmatic",
+  "period": "2024 - Now",
+  "title": "Systems that work\nwhen nobody is watching.",
+  "summary": "Production APIs, asynchronous pipelines, and agentic AI that is built with ownership from first request to final failure mode.",
+  "disciplines": [
+    "Backend",
+    "Distributed systems",
+    "Applied AI"
+  ],
+  "stats": [
+    {
+      "value": "5",
+      "label": "APIs owned"
+    },
+    {
+      "value": "40+",
+      "label": "APIs touched"
+    },
+    {
+      "value": "1M",
+      "label": "monthly visits handled"
+    }
+  ],
+  "href": "v1/",
+  "resume": "v1/Resume_EL_S1426.pdf"
+}
