@@ -1,0 +1,207 @@
+.html-animation {
+  width: 100%;
+  color: #dfff59;
+}
+.html-animation--card {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+  padding: 28px;
+  background-color: #171b19;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.055) 1px, transparent 1px);
+  background-size: 18px 18px;
+}
+.html-flow {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.html-step {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  min-width: 0;
+  min-height: 62px;
+  flex: 1 1 0;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  padding: 8px 6px;
+  border: 1px solid rgba(223, 255, 89, 0.45);
+  border-radius: 4px;
+  background: #202722;
+  text-align: center;
+  transition:
+    border-color 0.3s ease,
+    background 0.3s ease,
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+.html-step-index {
+  position: absolute;
+  top: 4px;
+  left: 5px;
+  color: #7f887f;
+  font:
+    600 7px/1 ui-monospace,
+    monospace;
+}
+.html-step strong {
+  overflow-wrap: anywhere;
+  color: #dfff59;
+  font:
+    700 clamp(7px, 0.75vw, 10px)/1.15 ui-monospace,
+    monospace;
+  letter-spacing: 0.04em;
+}
+.html-step small {
+  color: #8f9990;
+  font:
+    600 clamp(6px, 0.58vw, 8px)/1.1 ui-monospace,
+    monospace;
+}
+.html-step.is-active {
+  z-index: 2;
+  transform: translateY(-4px);
+  border-color: #dfff59;
+  background: #303a2a;
+  box-shadow: 0 0 20px rgba(223, 255, 89, 0.18);
+}
+.html-step.is-complete {
+  border-color: rgba(122, 216, 197, 0.65);
+}
+.html-link {
+  position: relative;
+  display: block;
+  width: clamp(13px, 2vw, 27px);
+  height: 1px;
+  flex: 0 0 clamp(13px, 2vw, 27px);
+  background: rgba(223, 255, 89, 0.38);
+}
+.html-link::after {
+  position: absolute;
+  top: -3px;
+  right: 0;
+  width: 6px;
+  height: 6px;
+  border-top: 1px solid currentColor;
+  border-right: 1px solid currentColor;
+  color: #dfff59;
+  content: "";
+  transform: rotate(45deg);
+}
+.html-link i {
+  position: absolute;
+  top: -3px;
+  left: 0;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #efffc5;
+  box-shadow: 0 0 10px #dfff59;
+  opacity: 0;
+}
+.html-link.is-active i {
+  opacity: 1;
+  animation: html-packet 0.8s ease-in-out infinite alternate;
+}
+.html-context {
+  position: relative;
+  display: flex;
+  width: max-content;
+  max-width: 100%;
+  flex-direction: column;
+  gap: 4px;
+  margin-inline: auto;
+  padding: 10px 18px 10px 30px;
+  border: 1px solid rgba(194, 163, 255, 0.6);
+  border-radius: 4px;
+  background: #282438;
+  color: #e2d5ff;
+  font:
+    700 9px/1.2 ui-monospace,
+    monospace;
+}
+.html-context small {
+  color: #a99bc7;
+  font:
+    600 7px/1.1 ui-monospace,
+    monospace;
+}
+.context-pulse {
+  position: absolute;
+  top: calc(50% - 3px);
+  left: 12px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #c2a3ff;
+  box-shadow: 0 0 9px #c2a3ff;
+  animation: html-packet 0.8s ease-in-out infinite alternate;
+}
+.html-status {
+  min-height: 9px;
+  margin: -18px 0 0;
+  color: #98a097;
+  font:
+    650 8px/1.2 ui-monospace,
+    monospace;
+  letter-spacing: 0.13em;
+  text-align: center;
+}
+.html-animation--mini {
+  display: flex;
+  height: 100%;
+  min-height: 145px;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 12px;
+}
+.html-animation--mini .html-step {
+  min-height: 55px;
+  padding: 8px 3px 5px;
+}
+.html-animation--mini .html-step strong {
+  font-size: 7px;
+}
+.html-animation--mini .html-step small {
+  font-size: 6px;
+}
+.html-animation--mini .html-link {
+  width: 12px;
+  flex-basis: 12px;
+}
+.html-animation--mini .html-status {
+  margin: -12px 0 0;
+  font-size: 7px;
+}
+@keyframes html-packet {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(10px);
+  }
+}
+@media (max-width: 900px) {
+  .html-animation--card {
+    min-height: 255px;
+    padding: 18px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .html-step,
+  .html-link i,
+  .context-pulse {
+    animation: none !important;
+    transition: none !important;
+  }
+  .html-step.is-active {
+    transform: none;
+  }
+}

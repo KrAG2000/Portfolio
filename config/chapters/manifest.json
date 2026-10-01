@@ -1,0 +1,6 @@
+{
+  "chapters": [
+    { "file": "v2.json", "current": true },
+    { "file": "v1.json", "current": false }
+  ]
+}
