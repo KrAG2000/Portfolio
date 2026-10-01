@@ -3,7 +3,7 @@
   "version": "v2",
   "chapter": "02",
   "company": "Fragmatic Technologies",
-  "period": "Apr 2024 – Present",
+  "period": "Apr 2024 - Present",
   "title": "Building backend and AI systems for production.",
   "summary": "Owned REST APIs, event-driven workflows and agentic AI systems using Node.js, PostgreSQL, Redis and AWS.",
   "disciplines": [
@@ -22,7 +22,7 @@
       "label": "APIs contributed to"
     },
     {
-      "value": "6–18s",
+      "value": "6 - 18s",
       "label": "typical agent run after optimization"
     }
   ],
@@ -85,7 +85,7 @@
       "label": "SELECTED SYSTEMS",
       "eyebrow": "What I've shipped",
       "heading": "APIs, agentic AI and reliable workflows.",
-      "note": "Full Stack Software Engineer at Fragmatic Technologies · Apr 2024 – Present",
+      "note": "Full Stack Software Engineer at Fragmatic Technologies · Apr 2024  -  Present",
       "items": [
         {
           "type": "Backend / APIs",
@@ -117,7 +117,7 @@
         {
           "type": "Applied AI / Security",
           "title": "An agent that can use tools with permission.",
-          "description": "Built a Node.js agentic AI system end to end. It supports tool calling, planning, multi-step execution, subagents, conversation state, structured outputs, streaming and human approval for changes. Added role-based authorization and audit logging. Built a provider-agnostic service for OpenAI, Gemini and Groq, with fallback, retries and rate-limit handling. Caching and API/LLM tuning cut typical runs from 30–60 seconds to 6–18 seconds.",
+          "description": "Built a Node.js agentic AI system end to end. It supports tool calling, planning, multi-step execution, subagents, conversation state, structured outputs, streaming and human approval for changes. Added role-based authorization and audit logging. Built a provider-agnostic service for OpenAI, Gemini and Groq, with fallback, retries and rate-limit handling. Caching and API/LLM tuning cut typical runs from 30 - 60 seconds to 6 - 18 seconds.",
           "technologies": [
             "Agentic AI",
             "Tool calling · subagents",
@@ -157,7 +157,7 @@
         {
           "type": "Infrastructure / Reliability",
           "title": "Async workflows built to handle failures.",
-          "description": "Used Redis, Bull, AWS SQS, Lambda and API Gateway for asynchronous processing, retries, caching and TTL-based work. Debugged production failures with CloudWatch and application logs. Improved an HTML personalization pipeline for 10K–35K character pages from 30–50 seconds to 6–12 seconds.",
+          "description": "Used Redis, Bull, AWS SQS, Lambda and API Gateway for asynchronous processing, retries, caching and TTL-based work. Debugged production failures with CloudWatch and application logs. Improved an HTML personalization pipeline for 10K - 35K character pages from 30 - 50 seconds to 6 - 12 seconds.",
           "technologies": [
             "Redis · Bull",
             "AWS SQS · Lambda",
@@ -199,11 +199,11 @@
           "label": "APIs contributed to"
         },
         {
-          "value": "6–18s",
+          "value": "6 - 18s",
           "label": "typical agent run after optimization"
         },
         {
-          "value": "6–12s",
+          "value": "6 - 12s",
           "label": "personalization pipeline after optimization"
         }
       ]
@@ -292,19 +292,19 @@
       "heading": "Experience and education.",
       "items": [
         {
-          "period": "Apr 2024 – Present",
+          "period": "Apr 2024  -  Present",
           "title": "Fragmatic Technologies",
           "summary": "Production REST APIs, event-driven workflows, agentic AI and production support.",
           "detail": "Production APIs, event-driven infrastructure, provider-agnostic AI services and agentic product workflows."
         },
         {
-          "period": "Jul 2023 – Apr 2024",
+          "period": "Jul 2023  -  Apr 2024",
           "title": "OpenSense Labs",
           "summary": "Consent-aware tracking, customer segmentation, personalization, automation and a RAG proof of concept.",
           "detail": "Consent-aware tracking, customer segmentation, personalization, automation and an early RAG proof of concept."
         },
         {
-          "period": "2019 – 2023",
+          "period": "2019  -  2023",
           "title": "Ujjain Engineering College",
           "summary": "Bachelor of Technology in Mechanical Engineering.",
           "detail": "The starting point for a lasting interest in how complex systems fit together.",
