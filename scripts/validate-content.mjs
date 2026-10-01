@@ -69,42 +69,38 @@ if (
     if (!chapter.id || chapterIds.has(chapter.id))
       errors.push(`${file} has a missing or duplicate id.`);
     chapterIds.add(chapter.id);
-    for (const field of [
-      "chapter",
-      "company",
-      "period",
-      "title",
-      "summary",
-      "html",
-    ]) {
+    for (const field of ["chapter", "company", "period", "title", "summary"]) {
       if (typeof chapter[field] !== "string" || !chapter[field].trim())
         errors.push(`${file} needs a non-empty '${field}' field.`);
     }
     if (!Array.isArray(chapter.disciplines) || !Array.isArray(chapter.stats))
       errors.push(`${file} needs disciplines and stats arrays.`);
-    if (
-      typeof chapter.animation?.html !== "string" ||
-      !chapter.animation.html.includes("data-html-animation")
-    ) {
-      errors.push(
-        `${file} needs an HTML animation with a data-html-animation root.`,
-      );
-    }
-    for (const [name, markup] of [
-      ["page", chapter.html],
-      ["animation", chapter.animation?.html],
-    ]) {
-      if (typeof markup !== "string") continue;
-      if (/<\s*svg\b/i.test(markup))
+    if (!Array.isArray(chapter.sections) || chapter.sections.length === 0) {
+      errors.push(`${file} needs an ordered 'sections' array.`);
+    } else {
+      if (
+        !Array.isArray(chapter.animation?.steps) ||
+        chapter.animation.steps.length < 2
+      ) {
         errors.push(
-          `${file} ${name} content contains SVG; use the shared HTML/CSS/JS animation system.`,
+          `${file} needs at least two steps in its 'animation' object.`,
         );
-      if (name === "animation") {
-        const stepCount = [...markup.matchAll(/\bdata-step=/g)].length;
-        if (stepCount < 2)
-          errors.push(
-            `${file} animation must include at least two data-step nodes.`,
-          );
+      }
+      for (const [index, section] of chapter.sections.entries()) {
+        if (!section || typeof section.type !== "string") {
+          errors.push(`${file} section ${index + 1} needs a 'type'.`);
+          continue;
+        }
+        if (section.type === "work") {
+          for (const [itemIndex, item] of (section.items || []).entries()) {
+            const steps = item.animation?.steps;
+            if (!Array.isArray(steps) || steps.length < 2) {
+              errors.push(
+                `${file} work item ${itemIndex + 1} needs at least two animation steps.`,
+              );
+            }
+          }
+        }
       }
     }
   }
@@ -116,10 +112,7 @@ for (const file of chapterFiles.filter((name) => name.endsWith(".json"))) {
     errors.push(`chapters/${file} is not listed in the chapter manifest.`);
 }
 
-for (const [source, markup] of [
-  ["config/home.json", home?.html],
-  ...chapters.map((chapter) => [`chapters/${chapter.id}.json`, chapter.html]),
-]) {
+for (const [source, markup] of [["config/home.json", home?.html]]) {
   if (typeof markup !== "string") continue;
   for (const target of localTargets(markup)) {
     const cleanTarget = decodeURIComponent(target);

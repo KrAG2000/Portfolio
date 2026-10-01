@@ -17,13 +17,367 @@
       "label": "proof of concept"
     },
     {
-      "value": "2023–24",
+      "value": "2023 - 24",
       "label": "OpenSense Labs"
     }
   ],
-  "html": "<a class=\"skip-link\" href=\"#main\">Skip to content</a>\n<header class=\"nav-shell\" id=\"top\">\n<nav aria-label=\"Primary navigation\" class=\"nav wrap\">\n<a aria-label=\"Kartik Agnihotri, top of page\" class=\"brand\" href=\"#top\">KA<span>.</span></a>\n<div class=\"nav-links\">\n<a href=\"#work\">Work</a>\n<a href=\"#lab\">Lab</a>\n<a href=\"#about\">About</a>\n</div>\n</nav>\n</header>\n<main id=\"main\">\n<section aria-labelledby=\"hero-title\" class=\"hero wrap\">\n<div class=\"chapter-stamp\">\n<span>Portfolio / v1</span>\n<span>Chapter 01: OpenSense Labs</span>\n</div>\n<div class=\"hero-grid\">\n<div class=\"hero-copy\">\n<p class=\"kicker\"><span></span> Software engineer · India</p>\n<h1 id=\"hero-title\">I build web features that respect <em>people and their data.</em></h1>\n<p class=\"hero-intro\">At OpenSense Labs, I worked on consent-aware tracking, customer segmentation, personalization, automation and an early RAG proof of concept.</p>\n<div class=\"hero-actions\">\n<a class=\"button button-primary\" href=\"#work\">See selected work <span>↓</span></a>\n<a class=\"text-link\" href=\"mailto:agni5kartik@gmail.com\">agni5kartik@gmail.com <span>↗</span></a>\n</div>\n</div>\n<aside aria-label=\"Engineering profile summary\" class=\"hero-console\">\n<div class=\"console-bar\">\n<span aria-hidden=\"true\" class=\"console-dots\"><i></i><i></i><i></i></span>\n<span>profile.system</span>\n<span>01</span>\n</div>\n<div aria-hidden=\"true\" class=\"console-visual\">\n<div class=\"radar-ring ring-one\"></div>\n<div class=\"radar-ring ring-two\"></div>\n<div class=\"radar-ring ring-three\"></div>\n<div class=\"radar-axis axis-x\"></div>\n<div class=\"radar-axis axis-y\"></div>\n<span class=\"radar-node node-one\"></span>\n<span class=\"radar-node node-two\"></span>\n<span class=\"radar-node node-three\"></span>\n<strong>RAG</strong>\n<p>retrieval<br/>proof of concept</p>\n</div>\n<dl class=\"console-data\">\n<div><dt>Focus</dt><dd>Personalization</dd></div>\n<div><dt>Mode</dt><dd>Node.js + Python</dd></div>\n<div><dt>Signal</dt><dd>Data use follows consent</dd></div>\n</dl>\n</aside>\n</div>\n<div class=\"hero-foot\">\n<p>Experience at OpenSense Labs</p>\n<p>Scroll to explore <span aria-hidden=\"true\">↘</span></p>\n</div>\n</section>\n<section aria-label=\"Technical focus\" class=\"signal-strip\">\n<div class=\"signal-track\">\n<span>Consent-aware tracking</span><i>✦</i><span>Customer segmentation</span><i>✦</i>\n<span>Personalization</span><i>✦</i><span>Automation</span><i>✦</i>\n<span>RAG</span><i>✦</i><span>Vector search</span><i>✦</i>\n<span aria-hidden=\"true\">Consent-aware tracking</span><i aria-hidden=\"true\">✦</i>\n<span aria-hidden=\"true\">Customer segmentation</span><i aria-hidden=\"true\">✦</i>\n<span aria-hidden=\"true\">Personalization</span><i aria-hidden=\"true\">✦</i>\n<span aria-hidden=\"true\">Automation</span><i aria-hidden=\"true\">✦</i>\n</div>\n</section>\n<section aria-labelledby=\"intro-title\" class=\"intro section wrap\" id=\"about\">\n<div class=\"section-index reveal\">01 / THE THREAD</div>\n<div class=\"intro-main reveal\">\n<p class=\"eyebrow\">A little context</p>\n<h2 id=\"intro-title\">Useful personalization starts with consent.</h2>\n<p class=\"large-copy\">I helped build features that used customer data according to consent and regional privacy requirements.</p>\n</div>\n<div class=\"intro-aside reveal\">\n<p>I implemented consent-aware tracking and customer segmentation workflows with Apache Unomi.</p>\n<p>I also developed backend personalization and automation features and explored retrieval-augmented generation (RAG).</p>\n</div>\n</section>\n<section aria-labelledby=\"work-title\" class=\"work section wrap\" id=\"work\">\n<div class=\"work-heading reveal\">\n<div class=\"section-index\">02 / SELECTED SYSTEMS</div>\n<div>\n<p class=\"eyebrow\">What I've shipped</p>\n<h2 id=\"work-title\">Tracking, personalization and retrieval.</h2>\n</div>\n<p class=\"work-note\">Associate Software Developer at OpenSense Labs · Jul 2023 – Apr 2024</p>\n</div>\n<div class=\"case-list\">\n<article class=\"case-card reveal\">\n<div class=\"case-number\">01</div>\n<div class=\"case-content\">\n<p class=\"case-type\">Tracking / Privacy</p>\n<h3>Tracking that follows user consent.</h3>\n<p>Implemented consent-aware tracking and customer segmentation workflows with Apache Unomi. Data collection followed user consent and regional privacy requirements.</p>\n<ul aria-label=\"Technologies\" class=\"pill-list\"><li>Apache Unomi</li><li>Consent-aware tracking</li><li>Customer segmentation</li></ul>\n</div>\n<div aria-hidden=\"true\" class=\"case-diagram agent-diagram\"><div aria-label=\"v1 experience flow\" class=\"html-animation html-animation--mini\" data-html-animation=\"\" data-statuses=\"CONSENT CHECK|CUSTOMER SEGMENTATION|PERSONALIZATION\"><div class=\"html-flow\"><div class=\"html-step\" data-step=\"0\"><span class=\"html-step-index\">01</span><strong>CONSENT</strong><small>CHECK</small></div><span aria-hidden=\"true\" class=\"html-link\" data-link=\"0\"><i></i></span><div class=\"html-step\" data-step=\"1\"><span class=\"html-step-index\">02</span><strong>SEGMENT</strong><small>GROUP</small></div><span aria-hidden=\"true\" class=\"html-link\" data-link=\"1\"><i></i></span><div class=\"html-step\" data-step=\"2\"><span class=\"html-step-index\">03</span><strong>PROFILE</strong><small>PERSONALIZE</small></div></div><p aria-live=\"off\" class=\"html-status\"></p></div></div>\n</article>\n<article class=\"case-card reveal\">\n<div class=\"case-number\">02</div>\n<div class=\"case-content\">\n<p class=\"case-type\">Backend / Personalization</p>\n<h3>Personalization and automation features.</h3>\n<p>Developed backend features for personalization and automation.</p>\n<ul aria-label=\"Technologies\" class=\"pill-list\"><li>Node.js</li><li>Backend development</li><li>Automation</li></ul>\n</div>\n<div aria-hidden=\"true\" class=\"case-diagram document-diagram\"><div aria-label=\"v1 experience flow\" class=\"html-animation html-animation--mini\" data-html-animation=\"\" data-statuses=\"CHUNK DOCUMENT|CREATE EMBEDDINGS|RETRIEVE CONTEXT\"><div class=\"html-flow\"><div class=\"html-step\" data-step=\"0\"><span class=\"html-step-index\">01</span><strong>CHUNK</strong><small>SPLIT</small></div><span aria-hidden=\"true\" class=\"html-link\" data-link=\"0\"><i></i></span><div class=\"html-step\" data-step=\"1\"><span class=\"html-step-index\">02</span><strong>EMBED</strong><small>VECTOR</small></div><span aria-hidden=\"true\" class=\"html-link\" data-link=\"1\"><i></i></span><div class=\"html-step\" data-step=\"2\"><span class=\"html-step-index\">03</span><strong>SEARCH</strong><small>KNN</small></div></div><p aria-live=\"off\" class=\"html-status\"></p></div></div>\n</article>\n<article class=\"case-card reveal\">\n<div class=\"case-number\">03</div>\n<div class=\"case-content\">\n<p class=\"case-type\">Applied AI / RAG</p>\n<h3>Finding useful context in a knowledge base.</h3>\n<p>Built a RAG proof of concept using Node.js, Python, OpenAI embeddings, Pinecone and GPT-3.5-turbo. It covered chunking, vector search, KNN retrieval, cosine similarity and contextual retrieval.</p>\n<ul aria-label=\"Technologies\" class=\"pill-list\"><li>OpenAI embeddings</li><li>Pinecone</li><li>KNN · cosine similarity</li></ul>\n</div>\n<div aria-hidden=\"true\" class=\"case-diagram event-diagram\"><div aria-label=\"v1 experience flow\" class=\"html-animation html-animation--mini\" data-html-animation=\"\" data-statuses=\"CONSENT-AWARE TRACKING|CUSTOMER SEGMENTS|AUTOMATION\"><div class=\"html-flow\"><div class=\"html-step\" data-step=\"0\"><span class=\"html-step-index\">01</span><strong>TRACK</strong><small>ALLOW</small></div><span aria-hidden=\"true\" class=\"html-link\" data-link=\"0\"><i></i></span><div class=\"html-step\" data-step=\"1\"><span class=\"html-step-index\">02</span><strong>SEGMENT</strong><small>GROUP</small></div><span aria-hidden=\"true\" class=\"html-link\" data-link=\"1\"><i></i></span><div class=\"html-step\" data-step=\"2\"><span class=\"html-step-index\">03</span><strong>AUTOMATE</strong><small>ACTION</small></div></div><p aria-live=\"off\" class=\"html-status\"></p></div></div>\n</article>\n</div>\n</section>\n<section aria-label=\"Work impact\" class=\"impact-band\">\n<div class=\"wrap impact-grid\">\n<div class=\"impact-item reveal\"><strong>CONSENT</strong><span>tracking based on user choices</span></div>\n<div class=\"impact-item reveal\"><strong>SEGMENTS</strong><span>customer segmentation workflows</span></div>\n<div class=\"impact-item reveal\"><strong>RAG</strong><span>retrieval proof of concept</span></div>\n<div class=\"impact-item reveal\"><strong>2023–24</strong><span>Associate Software Developer</span></div>\n</div>\n</section>\n<section aria-labelledby=\"lab-title\" class=\"lab section wrap\" id=\"lab\">\n<div class=\"lab-copy reveal\">\n<div class=\"section-index\">03 / AFTER HOURS</div>\n<p class=\"eyebrow\">The systems lab</p>\n<h2 id=\"lab-title\">A job scheduler I built outside work.</h2>\n<p class=\"large-copy\">A small, interactive view of a separate side project.</p>\n<p>The scheduler uses Redis queues and PostgreSQL job state. It supports scheduled jobs, concurrent workers, retries, idempotency and failure recovery.</p>\n<button class=\"button button-dark\" id=\"dispatch-button\" type=\"button\">\n            Dispatch a job <span>→</span>\n</button>\n</div>\n<div aria-live=\"polite\" class=\"queue-lab reveal\">\n<div class=\"lab-topbar\">\n<span>scheduler.local</span>\n<span id=\"clock\">00:00:00</span>\n</div>\n<div class=\"queue-stage\" id=\"queue-stage\">\n<div aria-hidden=\"true\" class=\"queue-connectors\"></div>\n<div class=\"queue-node\" data-node=\"intake\"><span>01</span><strong>Intake</strong><small>request</small></div>\n<div class=\"queue-node\" data-node=\"queue\"><span>02</span><strong>Queue</strong><small>redis</small></div>\n<div class=\"queue-node\" data-node=\"worker\"><span>03</span><strong>Worker</strong><small>attempt</small></div>\n<div class=\"queue-node\" data-node=\"store\"><span>04</span><strong>Store</strong><small>durable</small></div>\n<div aria-hidden=\"true\" class=\"job-token\" id=\"job-token\">J<span>001</span></div>\n</div>\n<div class=\"lab-log\">\n<div><span>Status</span><strong id=\"job-status\">Awaiting dispatch</strong></div>\n<div><span>Attempt</span><strong id=\"job-attempt\"> - </strong></div>\n<div><span>Backoff</span><strong id=\"job-backoff\"> - </strong></div>\n</div>\n</div>\n</section>\n<section aria-labelledby=\"projects-title\" class=\"side-projects section wrap\">\n<div class=\"side-heading reveal\">\n<div class=\"section-index\">04 / SIDE QUESTS</div>\n<div>\n<p class=\"eyebrow\">Learning by building</p>\n<h2 id=\"projects-title\">Projects beyond this role.</h2>\n</div>\n</div>\n<div class=\"project-grid\">\n<article class=\"project-card reveal\">\n<div class=\"project-top\"><span>01</span><span>Node.js · Redis · PostgreSQL</span></div>\n<h3>Distributed Job Scheduler</h3>\n<p>Built a scheduler with scheduled execution, concurrent workers, retries, idempotency, failure recovery and PostgreSQL job state.</p>\n<div class=\"project-foot\"><span>Reliable jobs, with clear state.</span><span>Built</span></div>\n</article>\n<article class=\"project-card inverse reveal\">\n<div class=\"project-top\"><span>02</span><span>C++ · Database internals</span></div>\n<h3>KragDB</h3>\n<p>Building a database system from scratch to learn about storage, data management and database internals.</p>\n<div class=\"project-foot\"><span>Learning from the storage layer up.</span><span>In progress</span></div>\n</article>\n</div>\n</section>\n<section aria-labelledby=\"principles-title\" class=\"principles section wrap\">\n<div class=\"principles-heading reveal\">\n<div class=\"section-index\">05 / OFF THE PAGE</div>\n<p class=\"eyebrow\">How I approach the work</p>\n<h2 id=\"principles-title\">Clear data rules. Useful results.</h2>\n</div>\n<ol class=\"principle-list\">\n<li class=\"reveal\">\n<span>01</span>\n<h3>Respect consent.</h3>\n<p>Collect and use data according to user consent and regional privacy requirements.</p>\n</li>\n<li class=\"reveal\">\n<span>02</span>\n<h3>Make information useful.</h3>\n<p>Use customer segmentation, personalization and automation to support product features.</p>\n</li>\n<li class=\"reveal\">\n<span>03</span>\n<h3>Retrieve relevant context.</h3>\n<p>Use chunking, embeddings, vector search and similarity methods in a RAG workflow.</p>\n</li>\n</ol>\n</section>\n<section aria-labelledby=\"experience-title\" class=\"experience section wrap\">\n<div class=\"experience-heading reveal\">\n<div class=\"section-index\">06 / EXPERIENCE</div>\n<div>\n<p class=\"eyebrow\">The timeline</p>\n<h2 id=\"experience-title\">Experience and education.</h2>\n</div>\n</div>\n<div class=\"timeline\">\n<article class=\"timeline-row reveal\">\n<div class=\"timeline-date\">Apr 2024 – Present</div>\n<div><h3>Fragmatic Technologies</h3><p>Production REST APIs, event-driven workflows, agentic AI and production support.</p></div>\n<p>Production APIs, event-driven infrastructure, provider-agnostic AI services and agentic product workflows.</p>\n<span aria-hidden=\"true\" class=\"timeline-dot\"></span>\n</article>\n<article class=\"timeline-row reveal\">\n<div class=\"timeline-date\">Jul 2023 – Apr 2024</div>\n<div><h3>OpenSense Labs</h3><p>Consent-aware tracking, customer segmentation, personalization, automation and a RAG proof of concept.</p></div>\n<p>Consent-aware tracking, customer segmentation, personalization, automation and an early RAG proof of concept.</p>\n<span aria-hidden=\"true\" class=\"timeline-dot\"></span>\n</article>\n<article class=\"timeline-row education reveal\">\n<div class=\"timeline-date\">2019 – 2023</div>\n<div><h3>Ujjain Engineering College</h3><p>Bachelor of Technology in Mechanical Engineering.</p></div>\n<p>The starting point for a lasting interest in how complex systems fit together.</p>\n<span aria-hidden=\"true\" class=\"timeline-dot\"></span>\n</article>\n</div>\n</section>\n<section aria-labelledby=\"stack-title\" class=\"stack section wrap\">\n<div class=\"stack-heading reveal\">\n<div class=\"section-index\">07 / TOOLKIT</div>\n<p class=\"eyebrow\">Technologies I work with</p>\n<h2 id=\"stack-title\">Tools I used to build these features.</h2>\n</div>\n<div class=\"stack-grid reveal\">\n<div><h3>Languages</h3><p>JavaScript</p><p>Python</p><p>SQL</p><p>C++</p></div>\n<div><h3>Backend</h3><p>Node.js</p><p>Personalization</p><p>Automation</p><p>Apache Unomi</p></div>\n<div><h3>Data</h3><p>Customer segmentation</p><p>Consent-aware tracking</p><p>Chunking</p><p>Contextual retrieval</p></div>\n<div><h3>AI &amp; search</h3><p>OpenAI embeddings</p><p>Pinecone</p><p>Vector search</p><p>KNN · cosine similarity</p></div>\n<div><h3>Methods</h3><p>GPT-3.5-turbo</p><p>RAG</p><p>Embeddings</p><p>Vector search</p></div>\n</div>\n</section>\n<section aria-labelledby=\"contact-title\" class=\"contact\">\n<div class=\"contact-inner wrap\">\n<div class=\"section-index\">08 / CONTACT</div>\n<div class=\"contact-copy reveal\">\n<p class=\"eyebrow\">Have an interesting problem?</p>\n<h2 id=\"contact-title\">Let’s build what<br/>happens next.</h2>\n<a class=\"contact-email\" href=\"mailto:agni5kartik@gmail.com\">agni5kartik@gmail.com <span>↗</span></a>\n</div>\n<div class=\"contact-links reveal\">\n<a href=\"https://www.linkedin.com/in/kartik-a-a6bb19269\" rel=\"noreferrer\" target=\"_blank\">LinkedIn <span>↗</span></a>\n<a href=\"https://github.com/KrAG2000\" rel=\"noreferrer\" target=\"_blank\">GitHub <span>↗</span></a>\n</div>\n</div>\n</section>\n</main>\n<footer class=\"footer\">\n<div class=\"wrap\">\n<a href=\"./\">← Portfolio archive</a>\n<p>© <span id=\"year\"></span> Kartik Agnihotri</p>\n<a href=\"#top\">Back to top ↑</a>\n</div>\n</footer>",
+  "pageTitle": "Chapter 01 — OpenSense Labs | Kartik Agnihotri",
+  "sections": [
+    {
+      "type": "hero",
+      "version": "v1",
+      "chapter": "01",
+      "company": "OpenSense Labs",
+      "kicker": "Software engineer · India",
+      "heading": "I build web features that respect",
+      "emphasis": "people and their data.",
+      "intro": "At OpenSense Labs, I worked on consent-aware tracking, customer segmentation, personalization, automation and an early RAG proof of concept.",
+      "email": "agni5kartik@gmail.com",
+      "visualTitle": "RAG",
+      "visualDetail": "retrieval proof of concept",
+      "profile": [
+        {
+          "label": "Focus",
+          "value": "Personalization"
+        },
+        {
+          "label": "Mode",
+          "value": "Node.js + Python"
+        },
+        {
+          "label": "Signal",
+          "value": "Data use follows consent"
+        }
+      ]
+    },
+    {
+      "type": "marquee",
+      "items": [
+        "Consent-aware tracking",
+        "Customer segmentation",
+        "Personalization",
+        "Automation",
+        "RAG",
+        "Vector search"
+      ]
+    },
+    {
+      "type": "intro",
+      "id": "about",
+      "index": "01",
+      "label": "THE THREAD",
+      "eyebrow": "A little context",
+      "heading": "Useful personalization starts with consent.",
+      "lead": "I helped build features that used customer data according to consent and regional privacy requirements.",
+      "points": [
+        "I implemented consent-aware tracking and customer segmentation workflows with Apache Unomi.",
+        "I also developed backend personalization and automation features and explored retrieval-augmented generation (RAG)."
+      ]
+    },
+    {
+      "type": "work",
+      "index": "02",
+      "label": "SELECTED SYSTEMS",
+      "eyebrow": "What I've shipped",
+      "heading": "Tracking, personalization and retrieval.",
+      "note": "Associate Software Developer at OpenSense Labs · Jul 2023 – Apr 2024",
+      "items": [
+        {
+          "type": "Tracking / Privacy",
+          "title": "Tracking that follows user consent.",
+          "description": "Implemented consent-aware tracking and customer segmentation workflows with Apache Unomi. Data collection followed user consent and regional privacy requirements.",
+          "technologies": [
+            "Apache Unomi",
+            "Consent-aware tracking",
+            "Customer segmentation"
+          ],
+          "diagramClass": "agent-diagram",
+          "animation": {
+            "label": "Consent-aware personalization workflow",
+            "steps": [
+              {
+                "name": "CONSENT",
+                "detail": "CHECK",
+                "status": "CONSENT CHECK"
+              },
+              {
+                "name": "SEGMENT",
+                "detail": "GROUP",
+                "status": "CUSTOMER SEGMENTATION"
+              },
+              {
+                "name": "PROFILE",
+                "detail": "PERSONALIZE",
+                "status": "PERSONALIZATION"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Backend / Personalization",
+          "title": "Personalization and automation features.",
+          "description": "Developed backend features for personalization and automation.",
+          "technologies": ["Node.js", "Backend development", "Automation"],
+          "diagramClass": "document-diagram",
+          "animation": {
+            "label": "RAG retrieval workflow",
+            "steps": [
+              {
+                "name": "CHUNK",
+                "detail": "SPLIT TEXT",
+                "status": "CHUNK DOCUMENT"
+              },
+              {
+                "name": "EMBED",
+                "detail": "VECTOR",
+                "status": "CREATE EMBEDDINGS"
+              },
+              {
+                "name": "SEARCH",
+                "detail": "KNN",
+                "status": "RETRIEVE CONTEXT"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Applied AI / RAG",
+          "title": "Finding useful context in a knowledge base.",
+          "description": "Built a RAG proof of concept using Node.js, Python, OpenAI embeddings, Pinecone and GPT-3.5-turbo. It covered chunking, vector search, KNN retrieval, cosine similarity and contextual retrieval.",
+          "technologies": [
+            "OpenAI embeddings",
+            "Pinecone",
+            "KNN · cosine similarity"
+          ],
+          "diagramClass": "event-diagram",
+          "animation": {
+            "label": "Data-to-action workflow",
+            "steps": [
+              {
+                "name": "TRACK",
+                "detail": "ALLOW",
+                "status": "CONSENT-AWARE TRACKING"
+              },
+              {
+                "name": "SEGMENT",
+                "detail": "GROUP",
+                "status": "CUSTOMER SEGMENTS"
+              },
+              {
+                "name": "AUTOMATE",
+                "detail": "ACTION",
+                "status": "AUTOMATION"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "impact",
+      "items": [
+        {
+          "value": "CONSENT",
+          "label": "tracking based on user choices"
+        },
+        {
+          "value": "SEGMENTS",
+          "label": "customer segmentation workflows"
+        },
+        {
+          "value": "RAG",
+          "label": "retrieval proof of concept"
+        },
+        {
+          "value": "2023 - 24",
+          "label": "Associate Software Developer"
+        }
+      ]
+    },
+    {
+      "type": "lab",
+      "id": "lab",
+      "index": "03",
+      "label": "AFTER HOURS",
+      "eyebrow": "The systems lab",
+      "heading": "A job scheduler I built outside work.",
+      "lead": "A small, interactive view of a separate side project.",
+      "description": "The scheduler uses Redis queues and PostgreSQL job state. It supports scheduled jobs, concurrent workers, retries, idempotency and failure recovery.",
+      "nodes": [
+        {
+          "id": "intake",
+          "name": "Intake",
+          "detail": "request"
+        },
+        {
+          "id": "queue",
+          "name": "Queue",
+          "detail": "redis"
+        },
+        {
+          "id": "worker",
+          "name": "Worker",
+          "detail": "attempt"
+        },
+        {
+          "id": "store",
+          "name": "Store",
+          "detail": "durable"
+        }
+      ]
+    },
+    {
+      "type": "projects",
+      "index": "04",
+      "label": "SIDE QUESTS",
+      "eyebrow": "Learning by building",
+      "heading": "Projects beyond this role.",
+      "items": [
+        {
+          "title": "Distributed Job Scheduler",
+          "technologies": "Node.js · Redis · PostgreSQL",
+          "description": "Built a scheduler with scheduled execution, concurrent workers, retries, idempotency, failure recovery and PostgreSQL job state.",
+          "note": "Reliable jobs, with clear state.",
+          "status": "Built"
+        },
+        {
+          "title": "KragDB",
+          "technologies": "C++ · Database internals",
+          "description": "Building a database system from scratch to learn about storage, data management and database internals.",
+          "note": "Learning from the storage layer up.",
+          "status": "In progress"
+        }
+      ]
+    },
+    {
+      "type": "principles",
+      "index": "05",
+      "label": "OFF THE PAGE",
+      "eyebrow": "How I approach the work",
+      "heading": "Clear data rules. Useful results.",
+      "items": [
+        {
+          "title": "Respect consent.",
+          "description": "Collect and use data according to user consent and regional privacy requirements."
+        },
+        {
+          "title": "Make information useful.",
+          "description": "Use customer segmentation, personalization and automation to support product features."
+        },
+        {
+          "title": "Retrieve relevant context.",
+          "description": "Use chunking, embeddings, vector search and similarity methods in a RAG workflow."
+        }
+      ]
+    },
+    {
+      "type": "experience",
+      "index": "06",
+      "label": "EXPERIENCE",
+      "eyebrow": "The timeline",
+      "heading": "Experience and education.",
+      "items": [
+        {
+          "period": "Apr 2024 – Present",
+          "title": "Fragmatic Technologies",
+          "summary": "Production REST APIs, event-driven workflows, agentic AI and production support.",
+          "detail": "Production APIs, event-driven infrastructure, provider-agnostic AI services and agentic product workflows."
+        },
+        {
+          "period": "Jul 2023 – Apr 2024",
+          "title": "OpenSense Labs",
+          "summary": "Consent-aware tracking, customer segmentation, personalization, automation and a RAG proof of concept.",
+          "detail": "Consent-aware tracking, customer segmentation, personalization, automation and an early RAG proof of concept."
+        },
+        {
+          "period": "2019 – 2023",
+          "title": "Ujjain Engineering College",
+          "summary": "Bachelor of Technology in Mechanical Engineering.",
+          "detail": "The starting point for a lasting interest in how complex systems fit together.",
+          "education": true
+        }
+      ]
+    },
+    {
+      "type": "stack",
+      "index": "07",
+      "label": "TOOLKIT",
+      "eyebrow": "Technologies I work with",
+      "heading": "Tools I used to build these features.",
+      "groups": [
+        {
+          "name": "Languages",
+          "items": ["JavaScript", "Python", "SQL", "C++"]
+        },
+        {
+          "name": "Backend",
+          "items": ["Node.js", "Personalization", "Automation", "Apache Unomi"]
+        },
+        {
+          "name": "Data",
+          "items": [
+            "Customer segmentation",
+            "Consent-aware tracking",
+            "Chunking",
+            "Contextual retrieval"
+          ]
+        },
+        {
+          "name": "AI & search",
+          "items": [
+            "OpenAI embeddings",
+            "Pinecone",
+            "Vector search",
+            "KNN · cosine similarity"
+          ]
+        },
+        {
+          "name": "Methods",
+          "items": ["GPT-3.5-turbo", "RAG", "Embeddings", "Vector search"]
+        }
+      ]
+    },
+    {
+      "type": "contact",
+      "index": "08",
+      "label": "CONTACT",
+      "eyebrow": "Have an interesting problem?",
+      "heading": "Let’s build what happens next.",
+      "email": "agni5kartik@gmail.com",
+      "links": [
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/kartik-a-a6bb19269"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/KrAG2000"
+        }
+      ]
+    }
+  ],
   "animation": {
-    "html": "<div class=\"html-animation html-animation--card\" data-html-animation data-statuses=\"CONSENT CHECK|TEXT CHUNKING|VECTOR EMBEDDINGS|CONTEXT RETRIEVAL\" aria-label=\"Consent-aware tracking and RAG retrieval workflow.\"><div class=\"html-flow\"><div class=\"html-step\" data-step=\"0\"><span class=\"html-step-index\">01</span><strong>CONSENT</strong><small>CHECK</small></div><span class=\"html-link\" data-link=\"0\" aria-hidden=\"true\"><i></i></span><div class=\"html-step\" data-step=\"1\"><span class=\"html-step-index\">02</span><strong>CHUNK</strong><small>SPLIT TEXT</small></div><span class=\"html-link\" data-link=\"1\" aria-hidden=\"true\"><i></i></span><div class=\"html-step\" data-step=\"2\"><span class=\"html-step-index\">03</span><strong>EMBED</strong><small>VECTORIZE</small></div><span class=\"html-link\" data-link=\"2\" aria-hidden=\"true\"><i></i></span><div class=\"html-step\" data-step=\"3\"><span class=\"html-step-index\">04</span><strong>RETRIEVE</strong><small>KNN SEARCH</small></div></div><div class=\"html-context\"><span class=\"context-pulse\"></span><strong>PINECONE</strong><small>VECTOR INDEX</small></div><p class=\"html-status\" aria-live=\"off\"></p></div>"
-  },
-  "pageTitle": "Chapter 01 — OpenSense Labs | Kartik Agnihotri"
+    "label": "Consent-aware customer data and personalization workflow",
+    "steps": [
+      {
+        "name": "CONSENT",
+        "detail": "CHECK",
+        "status": "CONSENT CHECK"
+      },
+      {
+        "name": "SEGMENT",
+        "detail": "GROUP",
+        "status": "CUSTOMER SEGMENTATION"
+      },
+      {
+        "name": "PERSONALIZE",
+        "detail": "PROFILE",
+        "status": "PERSONALIZATION"
+      }
+    ],
+    "context": {
+      "title": "APACHE UNOMI",
+      "detail": "CONSENT + PROFILE"
+    }
+  }
 }

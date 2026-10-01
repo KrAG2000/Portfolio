@@ -26,15 +26,17 @@ Push the repository to GitHub. In **Settings → Pages**, choose **Deploy from a
 
 - `config/home.json` contains the homepage page title, description and body markup. Its optional `resume` field points to the single résumé link shown on the homepage.
 - `config/chapters/manifest.json` lists chapter JSON filenames in display order. Set `current: true` on the chapter to feature it at the top of the archive.
-- `chapters/<id>.json` contains a chapter's metadata and page markup. Its `id` determines the chapter URL: `chapter.html?id=<id>`.
+- `chapters/<id>.json` contains a chapter's metadata and an ordered `sections` array. Its `id` determines the chapter URL: `chapter.html?id=<id>`.
 
 ### Add a chapter
 
-1. Add `chapters/<id>.json`, following the structure of an existing chapter file. Give it a unique `id` and fill in the page markup in `html`.
+1. Add `chapters/<id>.json`, following the structure of an existing chapter file. Give it a unique `id` and add the section objects in the order you want them displayed.
 2. Add its filename to `config/chapters/manifest.json`; choose its order and whether it is current.
 3. Preview the homepage and `chapter.html?id=<id>` locally.
 
-The chapter template and interaction scripts are shared. Chapter page markup lives in the JSON `html` field. Each chapter's `animation.html` contains its homepage animation as regular HTML. Shared `animations.css` styles the nodes and transitions, and `animation.js` advances the active step. Use this same HTML/CSS/JS pattern for chapter work-card diagrams. No SVG or GIF animation assets are needed.
+The chapter template and interaction scripts are shared. Chapter JSON uses small, typed section objects such as `hero`, `intro`, `work`, `impact`, `lab`, `projects`, `principles`, `experience`, `stack`, and `contact`. Array order controls display order; arrays such as `items`, `groups`, `points`, and `steps` control repeated content. The shared renderer turns these objects into the page. The chapter's top-level `animation.steps` drives its homepage card animation. Each work card can also have its own `animation.steps`. No animation HTML, SVG or GIF needs to be authored. `animations.css` styles the nodes and transitions, and `animation.js` advances the active step.
+
+When adding a chapter, copy an existing chapter JSON and replace its content. The `type` values select shared layouts; use the matching fields shown by the existing examples. Keep each chapter's `hero`, `work`, and `contact` objects, then add, remove, or reorder other section objects as needed.
 
 The JSON markup is authored by the site owner and inserted as HTML. Keep it trusted; do not put untrusted visitor input in these files.
 
