@@ -26,9 +26,387 @@
       "label": "typical agent run after optimization"
     }
   ],
-  "html": "<a class=\"skip-link\" href=\"#main\">Skip to content</a>\n<header class=\"nav-shell\" id=\"top\">\n<nav aria-label=\"Primary navigation\" class=\"nav wrap\">\n<a aria-label=\"Kartik Agnihotri, top of page\" class=\"brand\" href=\"#top\">KA<span>.</span></a>\n<div class=\"nav-links\">\n<a href=\"#work\">Work</a>\n<a href=\"#lab\">Lab</a>\n<a href=\"#about\">About</a>\n</div>\n</nav>\n</header>\n<main id=\"main\">\n<section aria-labelledby=\"hero-title\" class=\"hero wrap\">\n<div class=\"chapter-stamp\">\n<span>Portfolio / v2</span>\n<span>Chapter 02: Fragmatic Technologies</span>\n</div>\n<div class=\"hero-grid\">\n<div class=\"hero-copy\">\n<p class=\"kicker\"><span></span> Software engineer · India</p>\n<h1 id=\"hero-title\">I build backend and AI systems that work <em>in production.</em></h1>\n<p class=\"hero-intro\">At Fragmatic Technologies, I build and support REST APIs, event-driven workflows and AI features—from design and implementation through deployment and production support.</p>\n<div class=\"hero-actions\">\n<a class=\"button button-primary\" href=\"#work\">See selected work <span>↓</span></a>\n<a class=\"text-link\" href=\"mailto:agni5kartik@gmail.com\">agni5kartik@gmail.com <span>↗</span></a>\n</div>\n</div>\n<aside aria-label=\"Engineering profile summary\" class=\"hero-console\">\n<div class=\"console-bar\">\n<span aria-hidden=\"true\" class=\"console-dots\"><i></i><i></i><i></i></span>\n<span>profile.system</span>\n<span>01</span>\n</div>\n<div aria-hidden=\"true\" class=\"console-visual\">\n<div class=\"radar-ring ring-one\"></div>\n<div class=\"radar-ring ring-two\"></div>\n<div class=\"radar-ring ring-three\"></div>\n<div class=\"radar-axis axis-x\"></div>\n<div class=\"radar-axis axis-y\"></div>\n<span class=\"radar-node node-one\"></span>\n<span class=\"radar-node node-two\"></span>\n<span class=\"radar-node node-three\"></span>\n<strong>5</strong>\n<p>production APIs<br/>owned end to end</p>\n</div>\n<dl class=\"console-data\">\n<div><dt>Focus</dt><dd>Backend + agentic AI</dd></div>\n<div><dt>Mode</dt><dd>Node.js · PostgreSQL · AWS</dd></div>\n<div><dt>Signal</dt><dd>Production ownership</dd></div>\n</dl>\n</aside>\n</div>\n<div class=\"hero-foot\">\n<p>Experience at Fragmatic Technologies</p>\n<p>Scroll to explore <span aria-hidden=\"true\">↘</span></p>\n</div>\n</section>\n<section aria-label=\"Technical focus\" class=\"signal-strip\">\n<div class=\"signal-track\">\n<span>Node.js</span><i>✦</i><span>REST APIs</span><i>✦</i>\n<span>Agentic AI</span><i>✦</i><span>Event-driven workflows</span><i>✦</i>\n<span>PostgreSQL</span><i>✦</i><span>AWS SQS</span><i>✦</i>\n<span aria-hidden=\"true\">Node.js</span><i aria-hidden=\"true\">✦</i>\n<span aria-hidden=\"true\">REST APIs</span><i aria-hidden=\"true\">✦</i>\n<span aria-hidden=\"true\">Agentic AI</span><i aria-hidden=\"true\">✦</i>\n<span aria-hidden=\"true\">Event-driven workflows</span><i aria-hidden=\"true\">✦</i>\n</div>\n</section>\n<section aria-labelledby=\"intro-title\" class=\"intro section wrap\" id=\"about\">\n<div class=\"section-index reveal\">01 / THE THREAD</div>\n<div class=\"intro-main reveal\">\n<p class=\"eyebrow\">A little context</p>\n<h2 id=\"intro-title\">Own the path from request to production.</h2>\n<p class=\"large-copy\">My work spans APIs, asynchronous processing, AI agents, security and production support.</p>\n</div>\n<div class=\"intro-aside reveal\">\n<p>I designed and owned five production REST APIs for a multi-tenant B2B platform and contributed to more than 40 APIs.</p>\n<p>I also built event-driven workflows and a Node.js agentic AI system, then monitored, debugged and improved them in production.</p>\n</div>\n</section>\n<section aria-labelledby=\"work-title\" class=\"work section wrap\" id=\"work\">\n<div class=\"work-heading reveal\">\n<div class=\"section-index\">02 / SELECTED SYSTEMS</div>\n<div>\n<p class=\"eyebrow\">What I've shipped</p>\n<h2 id=\"work-title\">APIs, agentic AI and reliable workflows.</h2>\n</div>\n<p class=\"work-note\">Full Stack Software Engineer at Fragmatic Technologies · Apr 2024 – Present</p>\n</div>\n<div class=\"case-list\">\n<article class=\"case-card reveal\">\n<div class=\"case-number\">01</div>\n<div class=\"case-content\">\n<p class=\"case-type\">Backend / REST APIs</p>\n<h3>Production APIs with faster database queries.</h3>\n<p>Designed and owned five REST APIs for a multi-tenant B2B platform. Work included authentication, validation, business logic, Sequelize and PostgreSQL, deployment and production support. Optimized listing queries from 30–40 seconds to 3–8 seconds.</p>\n<ul aria-label=\"Technologies\" class=\"pill-list\"><li>Node.js</li><li>REST APIs</li><li>Sequelize · PostgreSQL</li></ul>\n</div>\n<div aria-hidden=\"true\" class=\"case-diagram agent-diagram\"><div aria-label=\"v2 experience flow\" class=\"html-animation html-animation--mini\" data-html-animation=\"\" data-statuses=\"REQUEST RECEIVED|AUTH + VALIDATION|DATABASE RESPONSE\"><div class=\"html-flow\"><div class=\"html-step\" data-step=\"0\"><span class=\"html-step-index\">01</span><strong>REQUEST</strong><small>REST API</small></div><span aria-hidden=\"true\" class=\"html-link\" data-link=\"0\"><i></i></span><div class=\"html-step\" data-step=\"1\"><span class=\"html-step-index\">02</span><strong>AUTH</strong><small>VALIDATE</small></div><span aria-hidden=\"true\" class=\"html-link\" data-link=\"1\"><i></i></span><div class=\"html-step\" data-step=\"2\"><span class=\"html-step-index\">03</span><strong>DATA</strong><small>POSTGRES</small></div></div><p aria-live=\"off\" class=\"html-status\"></p></div></div>\n</article>\n<article class=\"case-card reveal\">\n<div class=\"case-number\">02</div>\n<div class=\"case-content\">\n<p class=\"case-type\">Applied AI / Security</p>\n<h3>An agent that can use tools with permission.</h3>\n<p>Built a Node.js agentic AI system end to end. It supports tool calling, planning, multi-step execution, subagents, conversation state, structured outputs, streaming and human approval for changes. Added role-based authorization and audit logging. Built a provider-agnostic service for OpenAI, Gemini and Groq, with fallback, retries and rate-limit handling. Caching and API/LLM tuning cut typical runs from 30–60 seconds to 6–18 seconds.</p>\n<ul aria-label=\"Technologies\" class=\"pill-list\"><li>Agentic AI</li><li>Tool calling · subagents</li><li>RBAC · audit logging</li></ul>\n</div>\n<div aria-hidden=\"true\" class=\"case-diagram document-diagram\"><div aria-label=\"v2 experience flow\" class=\"html-animation html-animation--mini\" data-html-animation=\"\" data-statuses=\"INTENT RECEIVED|TOOL EXECUTION|RESULT OBSERVED\"><div class=\"html-flow\"><div class=\"html-step\" data-step=\"0\"><span class=\"html-step-index\">01</span><strong>INTENT</strong><small>INPUT</small></div><span aria-hidden=\"true\" class=\"html-link\" data-link=\"0\"><i></i></span><div class=\"html-step\" data-step=\"1\"><span class=\"html-step-index\">02</span><strong>ROUTE</strong><small>TOOLS</small></div><span aria-hidden=\"true\" class=\"html-link\" data-link=\"1\"><i></i></span><div class=\"html-step\" data-step=\"2\"><span class=\"html-step-index\">03</span><strong>OBSERVE</strong><small>RESULT</small></div></div><p aria-live=\"off\" class=\"html-status\"></p></div></div>\n</article>\n<article class=\"case-card reveal\">\n<div class=\"case-number\">03</div>\n<div class=\"case-content\">\n<p class=\"case-type\">Infrastructure / Reliability</p>\n<h3>Async workflows built to handle failures.</h3>\n<p>Used Redis, Bull, AWS SQS, Lambda and API Gateway for asynchronous processing, retries, caching and TTL-based work. Debugged production failures with CloudWatch and application logs. Improved an HTML personalization pipeline for 10K–35K character pages from 30–50 seconds to 6–12 seconds.</p>\n<ul aria-label=\"Technologies\" class=\"pill-list\"><li>Redis · Bull</li><li>AWS SQS · Lambda</li><li>Retries · TTL · caching</li></ul>\n</div>\n<div aria-hidden=\"true\" class=\"case-diagram event-diagram\"><div aria-label=\"v2 experience flow\" class=\"html-animation html-animation--mini\" data-html-animation=\"\" data-statuses=\"JOB QUEUED|WORKER PROCESSING|RETRY OR COMPLETE\"><div class=\"html-flow\"><div class=\"html-step\" data-step=\"0\"><span class=\"html-step-index\">01</span><strong>QUEUE</strong><small>REDIS</small></div><span aria-hidden=\"true\" class=\"html-link\" data-link=\"0\"><i></i></span><div class=\"html-step\" data-step=\"1\"><span class=\"html-step-index\">02</span><strong>WORKER</strong><small>LAMBDA</small></div><span aria-hidden=\"true\" class=\"html-link\" data-link=\"1\"><i></i></span><div class=\"html-step\" data-step=\"2\"><span class=\"html-step-index\">03</span><strong>RETRY</strong><small>RECOVER</small></div></div><p aria-live=\"off\" class=\"html-status\"></p></div></div>\n</article>\n</div>\n</section>\n<section aria-label=\"Work impact\" class=\"impact-band\">\n<div class=\"wrap impact-grid\">\n<div class=\"impact-item reveal\"><strong>5</strong><span>production REST APIs owned</span></div>\n<div class=\"impact-item reveal\"><strong>40+</strong><span>APIs contributed to</span></div>\n<div class=\"impact-item reveal\"><strong>6–18s</strong><span>typical agent run after optimization</span></div>\n<div class=\"impact-item reveal\"><strong>6–12s</strong><span>personalization pipeline after optimization</span></div>\n</div>\n</section>\n<section aria-labelledby=\"lab-title\" class=\"lab section wrap\" id=\"lab\">\n<div class=\"lab-copy reveal\">\n<div class=\"section-index\">03 / AFTER HOURS</div>\n<p class=\"eyebrow\">The systems lab</p>\n<h2 id=\"lab-title\">A job scheduler I built from scratch.</h2>\n<p class=\"large-copy\">A separate project for learning how distributed jobs behave.</p>\n<p>It uses Redis for queueing and PostgreSQL for job state. It supports scheduled execution, concurrent workers, retries, idempotency and failure recovery.</p>\n<button class=\"button button-dark\" id=\"dispatch-button\" type=\"button\">\n            Dispatch a job <span>→</span>\n</button>\n</div>\n<div aria-live=\"polite\" class=\"queue-lab reveal\">\n<div class=\"lab-topbar\">\n<span>scheduler.local</span>\n<span id=\"clock\">00:00:00</span>\n</div>\n<div class=\"queue-stage\" id=\"queue-stage\">\n<div aria-hidden=\"true\" class=\"queue-connectors\"></div>\n<div class=\"queue-node\" data-node=\"intake\"><span>01</span><strong>Intake</strong><small>request</small></div>\n<div class=\"queue-node\" data-node=\"queue\"><span>02</span><strong>Queue</strong><small>redis</small></div>\n<div class=\"queue-node\" data-node=\"worker\"><span>03</span><strong>Worker</strong><small>attempt</small></div>\n<div class=\"queue-node\" data-node=\"store\"><span>04</span><strong>Store</strong><small>durable</small></div>\n<div aria-hidden=\"true\" class=\"job-token\" id=\"job-token\">J<span>001</span></div>\n</div>\n<div class=\"lab-log\">\n<div><span>Status</span><strong id=\"job-status\">Awaiting dispatch</strong></div>\n<div><span>Attempt</span><strong id=\"job-attempt\"> - </strong></div>\n<div><span>Backoff</span><strong id=\"job-backoff\"> - </strong></div>\n</div>\n</div>\n</section>\n<section aria-labelledby=\"projects-title\" class=\"side-projects section wrap\">\n<div class=\"side-heading reveal\">\n<div class=\"section-index\">04 / SIDE QUESTS</div>\n<div>\n<p class=\"eyebrow\">Learning by building</p>\n<h2 id=\"projects-title\">Projects beyond production work.</h2>\n</div>\n</div>\n<div class=\"project-grid\">\n<article class=\"project-card reveal\">\n<div class=\"project-top\"><span>01</span><span>Node.js · Redis · PostgreSQL</span></div>\n<h3>Distributed Job Scheduler</h3>\n<p>Built a scheduler with scheduled execution, concurrent workers, retries, idempotency, failure recovery and PostgreSQL job state.</p>\n<div class=\"project-foot\"><span>Reliable jobs, with clear state.</span><span>Built</span></div>\n</article>\n<article class=\"project-card inverse reveal\">\n<div class=\"project-top\"><span>02</span><span>C++ · Database internals</span></div>\n<h3>KragDB</h3>\n<p>Building a database system from scratch to learn about storage, data management and database internals.</p>\n<div class=\"project-foot\"><span>Learning from the storage layer up.</span><span>In progress</span></div>\n</article>\n</div>\n</section>\n<section aria-labelledby=\"principles-title\" class=\"principles section wrap\">\n<div class=\"principles-heading reveal\">\n<div class=\"section-index\">05 / OFF THE PAGE</div>\n<p class=\"eyebrow\">How I approach the work</p>\n<h2 id=\"principles-title\">Build it. Secure it. Support it.</h2>\n</div>\n<ol class=\"principle-list\">\n<li class=\"reveal\">\n<span>01</span>\n<h3>Own the full request.</h3>\n<p>Handle authentication, validation, business logic, deployment and production support.</p>\n</li>\n<li class=\"reveal\">\n<span>02</span>\n<h3>Make failures recoverable.</h3>\n<p>Use retries, caching, TTL-based processing and clear logs to handle failures.</p>\n</li>\n<li class=\"reveal\">\n<span>03</span>\n<h3>Control what AI can do.</h3>\n<p>Use role-based permissions, human approval for mutations and audit logs for tool activity.</p>\n</li>\n</ol>\n</section>\n<section aria-labelledby=\"experience-title\" class=\"experience section wrap\">\n<div class=\"experience-heading reveal\">\n<div class=\"section-index\">06 / EXPERIENCE</div>\n<div>\n<p class=\"eyebrow\">The timeline</p>\n<h2 id=\"experience-title\">Experience and education.</h2>\n</div>\n</div>\n<div class=\"timeline\">\n<article class=\"timeline-row reveal\">\n<div class=\"timeline-date\">Apr 2024 – Present</div>\n<div><h3>Fragmatic Technologies</h3><p>Production REST APIs, event-driven workflows, agentic AI and production support.</p></div>\n<p>Production APIs, event-driven infrastructure, provider-agnostic AI services and agentic product workflows.</p>\n<span aria-hidden=\"true\" class=\"timeline-dot\"></span>\n</article>\n<article class=\"timeline-row reveal\">\n<div class=\"timeline-date\">Jul 2023 – Apr 2024</div>\n<div><h3>OpenSense Labs</h3><p>Consent-aware tracking, customer segmentation, personalization, automation and a RAG proof of concept.</p></div>\n<p>Consent-aware tracking, customer segmentation, personalization, automation and an early RAG proof of concept.</p>\n<span aria-hidden=\"true\" class=\"timeline-dot\"></span>\n</article>\n<article class=\"timeline-row education reveal\">\n<div class=\"timeline-date\">2019 – 2023</div>\n<div><h3>Ujjain Engineering College</h3><p>Bachelor of Technology in Mechanical Engineering.</p></div>\n<p>The starting point for a lasting interest in how complex systems fit together.</p>\n<span aria-hidden=\"true\" class=\"timeline-dot\"></span>\n</article>\n</div>\n</section>\n<section aria-labelledby=\"stack-title\" class=\"stack section wrap\">\n<div class=\"stack-heading reveal\">\n<div class=\"section-index\">07 / TOOLKIT</div>\n<p class=\"eyebrow\">Technologies I work with</p>\n<h2 id=\"stack-title\">Tools I use in production.</h2>\n</div>\n<div class=\"stack-grid reveal\">\n<div><h3>Languages</h3><p>JavaScript</p><p>Python</p><p>SQL</p><p>C++</p></div>\n<div><h3>Backend</h3><p>Node.js</p><p>REST APIs</p><p>Express.js · Fastify</p><p>Bull · async workers</p></div>\n<div><h3>Data</h3><p>PostgreSQL</p><p>Sequelize</p><p>Redis</p><p>Indexing · query tuning</p></div>\n<div><h3>AI &amp; security</h3><p>OpenAI · Gemini · Groq</p><p>Tool calling · RAG</p><p>OAuth · JWT · RBAC</p><p>Audit logging</p></div>\n<div><h3>Cloud</h3><p>AWS Lambda</p><p>SQS · API Gateway</p><p>CloudWatch · EC2</p><p>IAM · secrets · encryption</p></div>\n</div>\n</section>\n<section aria-labelledby=\"contact-title\" class=\"contact\">\n<div class=\"contact-inner wrap\">\n<div class=\"section-index\">08 / CONTACT</div>\n<div class=\"contact-copy reveal\">\n<p class=\"eyebrow\">Have an interesting problem?</p>\n<h2 id=\"contact-title\">Let’s build what<br/>happens next.</h2>\n<a class=\"contact-email\" href=\"mailto:agni5kartik@gmail.com\">agni5kartik@gmail.com <span>↗</span></a>\n</div>\n<div class=\"contact-links reveal\">\n<a href=\"https://www.linkedin.com/in/kartik-a-a6bb19269\" rel=\"noreferrer\" target=\"_blank\">LinkedIn <span>↗</span></a>\n<a href=\"https://github.com/KrAG2000\" rel=\"noreferrer\" target=\"_blank\">GitHub <span>↗</span></a>\n</div>\n</div>\n</section>\n</main>\n<footer class=\"footer\">\n<div class=\"wrap\">\n<a href=\"./\">← Portfolio archive</a>\n<p>© <span id=\"year\"></span> Kartik Agnihotri</p>\n<a href=\"#top\">Back to top ↑</a>\n</div>\n</footer>",
+  "pageTitle": "Chapter 02 — Fragmatic Technologies | Kartik Agnihotri",
+  "sections": [
+    {
+      "type": "hero",
+      "version": "v2",
+      "chapter": "02",
+      "company": "Fragmatic Technologies",
+      "kicker": "Software engineer · India",
+      "heading": "I build backend and AI systems that work",
+      "emphasis": "in production.",
+      "intro": "At Fragmatic Technologies, I build and support REST APIs, event-driven workflows and AI features—from design and implementation through deployment and production support.",
+      "email": "agni5kartik@gmail.com",
+      "visualTitle": "AI + API",
+      "visualDetail": "built for production",
+      "profile": [
+        {
+          "label": "Focus",
+          "value": "Backend + AI"
+        },
+        {
+          "label": "Mode",
+          "value": "Node.js + AWS"
+        },
+        {
+          "label": "Signal",
+          "value": "Secure and observable"
+        }
+      ]
+    },
+    {
+      "type": "marquee",
+      "items": [
+        "Node.js",
+        "REST APIs",
+        "Agentic AI",
+        "Event-driven workflows",
+        "PostgreSQL",
+        "AWS SQS"
+      ]
+    },
+    {
+      "type": "intro",
+      "id": "about",
+      "index": "01",
+      "label": "THE THREAD",
+      "eyebrow": "A little context",
+      "heading": "Own the path from request to production.",
+      "lead": "My work spans APIs, asynchronous processing, AI agents, security and production support.",
+      "points": [
+        "I design, build, deploy and support backend features used by real products.",
+        "I focus on clear permissions, reliable workflows and systems that are easier to operate."
+      ]
+    },
+    {
+      "type": "work",
+      "index": "02",
+      "label": "SELECTED SYSTEMS",
+      "eyebrow": "What I've shipped",
+      "heading": "APIs, agentic AI and reliable workflows.",
+      "note": "Full Stack Software Engineer at Fragmatic Technologies · Apr 2024 – Present",
+      "items": [
+        {
+          "type": "Backend / APIs",
+          "title": "REST APIs built for production use.",
+          "description": "Owned five production REST APIs and contributed to more than 40. Built and maintained request validation, authentication, PostgreSQL data access, integrations and production support.",
+          "technologies": ["Node.js", "REST APIs", "PostgreSQL"],
+          "diagramClass": "agent-diagram",
+          "animation": {
+            "label": "API request processing",
+            "steps": [
+              {
+                "name": "REQUEST",
+                "detail": "REST API",
+                "status": "REQUEST RECEIVED"
+              },
+              {
+                "name": "AUTH",
+                "detail": "VALIDATE",
+                "status": "AUTHENTICATION CHECKED"
+              },
+              {
+                "name": "DATA",
+                "detail": "POSTGRES",
+                "status": "DATA RETURNED"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Applied AI / Security",
+          "title": "An agent that can use tools with permission.",
+          "description": "Built a Node.js agentic AI system end to end. It supports tool calling, planning, multi-step execution, subagents, conversation state, structured outputs, streaming and human approval for changes. Added role-based authorization and audit logging. Built a provider-agnostic service for OpenAI, Gemini and Groq, with fallback, retries and rate-limit handling. Caching and API/LLM tuning cut typical runs from 30–60 seconds to 6–18 seconds.",
+          "technologies": [
+            "Agentic AI",
+            "Tool calling · subagents",
+            "RBAC · audit logging"
+          ],
+          "diagramClass": "document-diagram",
+          "animation": {
+            "label": "Permission-aware AI agent workflow",
+            "steps": [
+              {
+                "name": "INTENT",
+                "detail": "REQUEST",
+                "status": "INTENT RECEIVED"
+              },
+              {
+                "name": "ROUTE",
+                "detail": "ORCHESTRATE",
+                "status": "TOOLS ROUTED"
+              },
+              {
+                "name": "TOOLS",
+                "detail": "EXECUTE",
+                "status": "ACTION RUNNING"
+              },
+              {
+                "name": "VERIFY",
+                "detail": "RESULT",
+                "status": "RESULT VERIFIED"
+              }
+            ],
+            "context": {
+              "title": "CONVERSATION",
+              "detail": "STATE + CONTEXT"
+            }
+          }
+        },
+        {
+          "type": "Infrastructure / Reliability",
+          "title": "Async workflows built to handle failures.",
+          "description": "Used Redis, Bull, AWS SQS, Lambda and API Gateway for asynchronous processing, retries, caching and TTL-based work. Debugged production failures with CloudWatch and application logs. Improved an HTML personalization pipeline for 10K–35K character pages from 30–50 seconds to 6–12 seconds.",
+          "technologies": [
+            "Redis · Bull",
+            "AWS SQS · Lambda",
+            "Retries · TTL · caching"
+          ],
+          "diagramClass": "event-diagram",
+          "animation": {
+            "label": "Asynchronous job processing",
+            "steps": [
+              {
+                "name": "QUEUE",
+                "detail": "REDIS",
+                "status": "JOB QUEUED"
+              },
+              {
+                "name": "WORKER",
+                "detail": "LAMBDA",
+                "status": "WORKER PROCESSING"
+              },
+              {
+                "name": "RETRY",
+                "detail": "RECOVER",
+                "status": "RETRY OR COMPLETE"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "impact",
+      "items": [
+        {
+          "value": "5",
+          "label": "production REST APIs owned"
+        },
+        {
+          "value": "40+",
+          "label": "APIs contributed to"
+        },
+        {
+          "value": "6–18s",
+          "label": "typical agent run after optimization"
+        },
+        {
+          "value": "6–12s",
+          "label": "personalization pipeline after optimization"
+        }
+      ]
+    },
+    {
+      "type": "lab",
+      "id": "lab",
+      "index": "03",
+      "label": "AFTER HOURS",
+      "eyebrow": "The systems lab",
+      "heading": "A job scheduler I built from scratch.",
+      "lead": "A separate project for learning how distributed jobs behave.",
+      "description": "It uses Redis for queueing and PostgreSQL for job state. It supports scheduled execution, concurrent workers, retries, idempotency and failure recovery.",
+      "nodes": [
+        {
+          "id": "intake",
+          "name": "Intake",
+          "detail": "request"
+        },
+        {
+          "id": "queue",
+          "name": "Queue",
+          "detail": "redis"
+        },
+        {
+          "id": "worker",
+          "name": "Worker",
+          "detail": "attempt"
+        },
+        {
+          "id": "store",
+          "name": "Store",
+          "detail": "durable"
+        }
+      ]
+    },
+    {
+      "type": "projects",
+      "index": "04",
+      "label": "SIDE QUESTS",
+      "eyebrow": "Learning by building",
+      "heading": "Projects beyond production work.",
+      "items": [
+        {
+          "title": "Distributed Job Scheduler",
+          "technologies": "Node.js · Redis · PostgreSQL",
+          "description": "Built a scheduler with scheduled execution, concurrent workers, retries, idempotency, failure recovery and PostgreSQL job state.",
+          "note": "Reliable jobs, with clear state.",
+          "status": "Built"
+        },
+        {
+          "title": "KragDB",
+          "technologies": "C++ · Database internals",
+          "description": "Building a database system from scratch to learn about storage, data management and database internals.",
+          "note": "Learning from the storage layer up.",
+          "status": "In progress"
+        }
+      ]
+    },
+    {
+      "type": "principles",
+      "index": "05",
+      "label": "OFF THE PAGE",
+      "eyebrow": "How I approach the work",
+      "heading": "Build it. Secure it. Support it.",
+      "items": [
+        {
+          "title": "Own the full request.",
+          "description": "Handle authentication, validation, business logic, deployment and production support."
+        },
+        {
+          "title": "Make failures recoverable.",
+          "description": "Use retries, caching, TTL-based processing and clear logs to handle failures."
+        },
+        {
+          "title": "Control what AI can do.",
+          "description": "Use role-based permissions, human approval for mutations and audit logs for tool activity."
+        }
+      ]
+    },
+    {
+      "type": "experience",
+      "index": "06",
+      "label": "EXPERIENCE",
+      "eyebrow": "The timeline",
+      "heading": "Experience and education.",
+      "items": [
+        {
+          "period": "Apr 2024 – Present",
+          "title": "Fragmatic Technologies",
+          "summary": "Production REST APIs, event-driven workflows, agentic AI and production support.",
+          "detail": "Production APIs, event-driven infrastructure, provider-agnostic AI services and agentic product workflows."
+        },
+        {
+          "period": "Jul 2023 – Apr 2024",
+          "title": "OpenSense Labs",
+          "summary": "Consent-aware tracking, customer segmentation, personalization, automation and a RAG proof of concept.",
+          "detail": "Consent-aware tracking, customer segmentation, personalization, automation and an early RAG proof of concept."
+        },
+        {
+          "period": "2019 – 2023",
+          "title": "Ujjain Engineering College",
+          "summary": "Bachelor of Technology in Mechanical Engineering.",
+          "detail": "The starting point for a lasting interest in how complex systems fit together.",
+          "education": true
+        }
+      ]
+    },
+    {
+      "type": "stack",
+      "index": "07",
+      "label": "TOOLKIT",
+      "eyebrow": "Technologies I work with",
+      "heading": "Tools I use in production.",
+      "groups": [
+        {
+          "name": "Languages",
+          "items": ["JavaScript", "Python", "SQL", "C++"]
+        },
+        {
+          "name": "Backend",
+          "items": [
+            "Node.js",
+            "REST APIs",
+            "Express.js · Fastify",
+            "Bull · async workers"
+          ]
+        },
+        {
+          "name": "Data",
+          "items": [
+            "PostgreSQL",
+            "Sequelize",
+            "Redis",
+            "Indexing · query tuning"
+          ]
+        },
+        {
+          "name": "AI & security",
+          "items": [
+            "OpenAI · Gemini · Groq",
+            "Tool calling · RAG",
+            "OAuth · JWT · RBAC",
+            "Audit logging"
+          ]
+        },
+        {
+          "name": "Cloud",
+          "items": [
+            "AWS Lambda",
+            "SQS · API Gateway",
+            "CloudWatch · EC2",
+            "IAM · secrets · encryption"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "contact",
+      "index": "08",
+      "label": "CONTACT",
+      "eyebrow": "Have an interesting problem?",
+      "heading": "Let’s build what happens next.",
+      "email": "agni5kartik@gmail.com",
+      "links": [
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/kartik-a-a6bb19269"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/KrAG2000"
+        }
+      ]
+    }
+  ],
   "animation": {
-    "html": "<div class=\"html-animation html-animation--card\" data-html-animation data-statuses=\"INTENT RECEIVED|TOOLS ROUTED|ACTION RUNNING|RESULT VERIFIED\" aria-label=\"Agentic AI workflow from intent through tools to verified result.\"><div class=\"html-flow\"><div class=\"html-step\" data-step=\"0\"><span class=\"html-step-index\">01</span><strong>INTENT</strong><small>REQUEST</small></div><span class=\"html-link\" data-link=\"0\" aria-hidden=\"true\"><i></i></span><div class=\"html-step\" data-step=\"1\"><span class=\"html-step-index\">02</span><strong>ROUTE</strong><small>ORCHESTRATE</small></div><span class=\"html-link\" data-link=\"1\" aria-hidden=\"true\"><i></i></span><div class=\"html-step\" data-step=\"2\"><span class=\"html-step-index\">03</span><strong>TOOLS</strong><small>EXECUTE</small></div><span class=\"html-link\" data-link=\"2\" aria-hidden=\"true\"><i></i></span><div class=\"html-step\" data-step=\"3\"><span class=\"html-step-index\">04</span><strong>VERIFY</strong><small>RESULT</small></div></div><div class=\"html-context\"><span class=\"context-pulse\"></span><strong>CONVERSATION</strong><small>STATE + CONTEXT</small></div><p class=\"html-status\" aria-live=\"off\"></p></div>"
-  },
-  "pageTitle": "Chapter 02 — Fragmatic Technologies | Kartik Agnihotri"
+    "label": "Permission-aware agentic AI workflow",
+    "steps": [
+      {
+        "name": "INTENT",
+        "detail": "REQUEST",
+        "status": "INTENT RECEIVED"
+      },
+      {
+        "name": "ROUTE",
+        "detail": "TOOLS",
+        "status": "TOOLS ROUTED"
+      },
+      {
+        "name": "EXECUTE",
+        "detail": "ACTION",
+        "status": "ACTION RUNNING"
+      },
+      {
+        "name": "VERIFY",
+        "detail": "RESULT",
+        "status": "RESULT VERIFIED"
+      }
+    ],
+    "context": {
+      "title": "CONVERSATION",
+      "detail": "STATE + CONTEXT"
+    }
+  }
 }

@@ -717,9 +717,12 @@ input {
   background: var(--paper);
 }
 
-.event-diagram {
-  display: grid;
-  place-content: center;
+.event-diagram,
+.agent-diagram {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
 }
 .event-line {
   display: flex;
@@ -802,7 +805,7 @@ input {
 }
 .impact-item strong {
   color: var(--accent);
-  font-size: clamp(2.8rem, 4.8vw, 5.2rem);
+  font-size: clamp(2.8rem, 3.5vw, 4rem);
   font-weight: 540;
   line-height: 0.8;
   letter-spacing: -0.07em;
@@ -1605,5 +1608,387 @@ input {
   .reveal {
     opacity: 1;
     transform: none;
+  }
+}
+
+/* Chapter content after the opening keeps a quieter, more editorial rhythm. */
+#chapter-content .intro.section {
+  position: relative;
+  grid-template-columns: 150px minmax(0, 1.12fr) minmax(220px, 0.62fr);
+  gap: clamp(22px, 3vw, 44px);
+  align-items: start;
+  margin-block: 30px 100px;
+  padding: clamp(38px, 6vw, 76px);
+  border: 0;
+  border-radius: 4px;
+  color: var(--paper);
+  background:
+    radial-gradient(
+      ellipse at 90% 0%,
+      rgba(223, 255, 89, 0.1),
+      transparent 36%
+    ),
+    var(--ink);
+}
+
+#chapter-content .intro .section-index {
+  color: var(--accent);
+}
+
+#chapter-content .intro .eyebrow {
+  color: var(--accent);
+}
+
+#chapter-content .intro h2 {
+  max-width: 760px;
+  font-size: clamp(2.8rem, 5.2vw, 5.5rem);
+  line-height: 0.98;
+}
+
+#chapter-content .intro-main .large-copy {
+  max-width: 700px;
+  margin-top: 30px;
+  color: #bdc2b8;
+  font-size: clamp(1.12rem, 1.65vw, 1.5rem);
+}
+
+#chapter-content .intro-aside {
+  padding: 42px 0 0;
+  color: #aeb3a9;
+  font-size: 0.86rem;
+}
+
+#chapter-content .work.section {
+  padding-top: 30px;
+  border-bottom: 0;
+}
+
+#chapter-content .work-heading {
+  grid-template-columns: 0.2fr 1.2fr 0.5fr;
+  margin-bottom: 42px;
+}
+
+#chapter-content .work-heading h2,
+#chapter-content .side-heading h2,
+#chapter-content .experience-heading h2,
+#chapter-content .stack-heading h2 {
+  max-width: 760px;
+  font-size: clamp(2.8rem, 5vw, 5.3rem);
+  line-height: 0.98;
+}
+
+#chapter-content .case-list {
+  display: grid;
+  gap: 14px;
+  border: 0;
+}
+
+#chapter-content .case-card {
+  position: relative;
+  grid-template-columns: 42px minmax(0, 1.12fr) minmax(270px, 0.78fr);
+  gap: clamp(22px, 3vw, 44px);
+  min-height: 0;
+  padding: clamp(24px, 4vw, 44px);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.42);
+  transition:
+    border-color 200ms ease,
+    transform 200ms ease,
+    background-color 200ms ease;
+}
+
+#chapter-content .case-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(108, 131, 8, 0.42);
+  background: #faf9f4;
+}
+
+#chapter-content .case-number {
+  padding-top: 3px;
+  color: var(--accent-dark);
+}
+
+#chapter-content .case-content h3 {
+  font-size: clamp(1.8rem, 3vw, 3rem);
+  line-height: 1.02;
+}
+
+#chapter-content .case-content > p:not(.case-type) {
+  font-size: 0.88rem;
+}
+
+#chapter-content .case-diagram {
+  min-height: 230px;
+  border-radius: 3px;
+}
+
+#chapter-content .impact-band {
+  margin-block: 22px 96px;
+}
+
+#chapter-content .impact-grid {
+  min-height: 205px;
+}
+
+#chapter-content .impact-item {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 18px;
+  padding: 26px;
+}
+
+#chapter-content .impact-item strong {
+  font-size: clamp(2.8rem, 3.5vw, 4.2rem);
+}
+
+#chapter-content .impact-item > span {
+  max-width: 180px;
+  color: #b4b9ae;
+  font-size: 0.72rem;
+}
+
+#chapter-content .lab.section {
+  gap: clamp(36px, 6vw, 86px);
+  margin-bottom: 36px;
+  padding: clamp(34px, 6vw, 72px);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: var(--paper-2);
+}
+
+#chapter-content .lab-copy .section-index,
+#chapter-content .principles-heading .section-index,
+#chapter-content .stack-heading .section-index {
+  margin-bottom: 32px;
+}
+
+#chapter-content .lab-copy h2 {
+  font-size: clamp(2.65rem, 4.4vw, 4.5rem);
+  line-height: 0.98;
+}
+
+#chapter-content .lab .queue-lab {
+  box-shadow: 0 18px 55px rgba(29, 32, 28, 0.1);
+}
+
+#chapter-content .side-projects.section,
+#chapter-content .experience.section,
+#chapter-content .stack.section {
+  padding-block: 92px;
+  border-bottom: 1px solid var(--line);
+}
+
+#chapter-content .project-grid,
+#chapter-content .timeline {
+  margin-left: calc(17% + 24px);
+}
+
+#chapter-content .project-grid {
+  gap: 14px;
+}
+
+#chapter-content .project-card {
+  min-height: 360px;
+  border-radius: 4px;
+}
+
+#chapter-content .project-card h3 {
+  margin-top: 62px;
+  font-size: clamp(1.9rem, 3vw, 3rem);
+}
+
+#chapter-content .principles.section {
+  grid-template-columns: 0.48fr 1fr;
+  gap: clamp(36px, 6vw, 90px);
+  padding-block: 100px;
+  border-bottom: 1px solid var(--line);
+}
+
+#chapter-content .principles-heading h2 {
+  font-size: clamp(2.8rem, 4.5vw, 4.7rem);
+  line-height: 0.98;
+}
+
+#chapter-content .principle-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin: 0;
+  border: 0;
+}
+
+#chapter-content .principle-list li {
+  display: flex;
+  min-height: 245px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.42);
+}
+
+#chapter-content .principle-list h3 {
+  margin-top: auto;
+  font-size: 1.25rem;
+}
+
+#chapter-content .timeline {
+  border-top-color: rgba(29, 32, 28, 0.22);
+}
+
+#chapter-content .timeline-row {
+  grid-template-columns: 0.55fr 0.85fr 1fr;
+  gap: 24px;
+  padding-block: 30px;
+}
+
+#chapter-content .timeline-row h3 {
+  font-size: 1.2rem;
+}
+
+#chapter-content .stack-grid {
+  gap: 10px;
+  border: 0;
+}
+
+#chapter-content .stack-grid div,
+#chapter-content .stack-grid div:last-child {
+  min-height: 190px;
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.42);
+}
+
+#chapter-content .stack-grid div:last-child {
+  grid-column: auto;
+  display: block;
+}
+
+#chapter-content .stack-grid div:last-child h3 {
+  margin-bottom: 32px;
+}
+
+#chapter-content .contact {
+  margin-top: 30px;
+}
+
+@media (max-width: 850px) {
+  #chapter-content .intro.section {
+    grid-template-columns: 1fr 1.7fr;
+    gap: 24px;
+    margin-bottom: 64px;
+  }
+
+  #chapter-content .intro-aside {
+    grid-column: 2;
+    padding-top: 0;
+  }
+
+  #chapter-content .case-card {
+    grid-template-columns: 34px minmax(0, 1fr);
+  }
+
+  #chapter-content .case-diagram {
+    grid-column: 2;
+  }
+
+  #chapter-content .lab.section {
+    padding: 38px;
+  }
+
+  #chapter-content .principles.section {
+    grid-template-columns: 1fr;
+  }
+
+  #chapter-content .principle-list {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  #chapter-content .side-projects.section,
+  #chapter-content .experience.section,
+  #chapter-content .stack.section {
+    padding-block: 70px;
+  }
+}
+
+@media (max-width: 640px) {
+  #chapter-content .intro.section {
+    grid-template-columns: 1fr;
+    gap: 22px;
+    margin-block: 16px 58px;
+    padding: 30px 24px;
+  }
+
+  #chapter-content .intro-aside {
+    grid-column: auto;
+  }
+
+  #chapter-content .work.section {
+    padding-top: 20px;
+  }
+
+  #chapter-content .work-heading {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  #chapter-content .work-note {
+    grid-column: auto;
+  }
+
+  #chapter-content .case-card {
+    grid-template-columns: 1fr;
+    padding: 24px;
+  }
+
+  #chapter-content .case-diagram {
+    grid-column: auto;
+  }
+
+  #chapter-content .impact-band {
+    margin-bottom: 58px;
+  }
+
+  #chapter-content .impact-grid {
+    min-height: 0;
+  }
+
+  #chapter-content .impact-item {
+    min-height: 135px;
+    padding: 16px;
+  }
+
+  #chapter-content .lab.section {
+    width: var(--wrap);
+    gap: 28px;
+    padding: 28px 20px;
+  }
+
+  #chapter-content .principles.section {
+    padding-block: 68px;
+  }
+
+  #chapter-content .principle-list {
+    grid-template-columns: 1fr;
+  }
+
+  #chapter-content .principle-list li {
+    min-height: 185px;
+  }
+
+  #chapter-content .project-grid,
+  #chapter-content .timeline {
+    margin-left: 0;
+  }
+
+  #chapter-content .stack-grid div,
+  #chapter-content .stack-grid div:last-child {
+    min-height: 0;
+    padding: 20px;
   }
 }

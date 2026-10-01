@@ -15,6 +15,22 @@ const escapeHtml = (value) =>
       })[char] ?? char,
   );
 
+/** @param {any} animation */
+function renderCardAnimation(animation) {
+  if (!Array.isArray(animation?.steps) || animation.steps.length === 0)
+    return "";
+  const steps = animation.steps
+    .map(
+      (/** @type {any} */ step, /** @type {number} */ index) =>
+        `${index ? `<span aria-hidden="true" class="html-link" data-link="${index - 1}"><i></i></span>` : ""}<div class="html-step" data-step="${index}"><span class="html-step-index">${String(index + 1).padStart(2, "0")}</span><strong>${escapeHtml(step.name)}</strong><small>${escapeHtml(step.detail)}</small></div>`,
+    )
+    .join("");
+  const statuses = animation.steps
+    .map((/** @type {any} */ step) => escapeHtml(step.status || step.name))
+    .join("|");
+  return `<div class="html-animation html-animation--card" data-html-animation data-statuses="${statuses}" aria-label="${escapeHtml(animation.label || "Workflow animation")}"><div class="html-flow">${steps}</div>${animation.context ? `<div class="html-context"><span class="context-pulse"></span><strong>${escapeHtml(animation.context.title)}</strong><small>${escapeHtml(animation.context.detail)}</small></div>` : ""}<p class="html-status" aria-live="off"></p></div>`;
+}
+
 /** @param {string} path @returns {Promise<any>} */
 async function fetchJson(path) {
   const response = await fetch(path);
@@ -38,7 +54,7 @@ function chapterCard(chapter, current, index) {
         `<div class="card-stat"><strong>${escapeHtml(stat.value)}</strong><span>${escapeHtml(stat.label)}</span></div>`,
     )
     .join("");
-  const animation = chapter.animation?.html || "";
+  const animation = renderCardAnimation(chapter.animation);
   const href = `chapter.html?id=${encodeURIComponent(chapter.id)}`;
   return `<article class="version-card" style="--order:${index}">
     <a class="card-main-link" href="${href}" aria-label="Open chapter ${escapeHtml(chapter.chapter)}: ${escapeHtml(chapter.company)}"></a>
