@@ -250,14 +250,122 @@
       "index": "04",
       "label": "SIDE QUESTS",
       "eyebrow": "Learning by building",
-      "heading": "Projects beyond production work.",
+      "heading": "Apps I've shipped beyond production work.",
       "items": [
         {
+          "title": "Perforvisor",
+          "technologies": "TypeScript · Fastify · LangGraph · vLLM",
+          "description": "An AI advisor on open-weight models that reads public reviews (Google Maps via SerpApi), builds a knowledge graph and answers business owners and consumers with cited evidence. Resumable sync on Vercel Queues, models served with vLLM on GKE.",
+          "note": "Reviews, turned into advice.",
+          "status": "Live",
+          "links": [
+            {
+              "label": "Live app",
+              "url": "https://perforvisor.vercel.app"
+            },
+            {
+              "label": "Code",
+              "url": "https://github.com/KrAG2000/perforvisor"
+            }
+          ]
+        },
+        {
+          "title": "Medication Safety Graph",
+          "technologies": "Node.js · FalkorDB · Cypher",
+          "description": "Built for Graph Hacks. Two agents walk a FalkorDB knowledge graph to flag medicine conflicts for caregivers, show the graph path behind every warning, name who to call and remember each clinician's decision for the next session.",
+          "note": "Every warning has a path.",
+          "status": "Live",
+          "links": [
+            {
+              "label": "Live app",
+              "url": "https://graph-hacks-medicine-safety-app-amber.vercel.app"
+            },
+            {
+              "label": "Demo",
+              "url": "https://youtu.be/wKzizR8iS9Y"
+            },
+            {
+              "label": "Write-up",
+              "url": "https://medium.com/@agni5kartik/can-mum-take-an-advil-building-a-medication-safety-checker-on-a-knowledge-graph-fca111808bb2"
+            },
+            {
+              "label": "Code",
+              "url": "https://github.com/KrAG2000/graph-hacks_medicine-safety-app"
+            }
+          ]
+        },
+        {
+          "title": "EchoNote",
+          "technologies": "Electron · whisper.cpp · llama.cpp",
+          "description": "A local-first voice-to-action desktop assistant. Press a shortcut, speak, and Gemma 4 turns the thought into a task, reminder, idea or note. Fully offline after setup, packaged as RPM, DEB and AppImage.",
+          "note": "Speak once, keep working.",
+          "status": "v1.0.5",
+          "links": [
+            {
+              "label": "Download",
+              "url": "https://github.com/KrAG2000/echonote/releases/latest"
+            },
+            {
+              "label": "Code",
+              "url": "https://github.com/KrAG2000/echonote"
+            }
+          ]
+        },
+        {
+          "title": "Creative Detour",
+          "technologies": "Kotlin · Compose · LiteRT-LM",
+          "description": "An Android app that finds free moments between steps, screen time and calendar events and nudges you off your phone. Nudges are written by Gemma 4 running on the device. No account, no server.",
+          "note": "Less screen, more world.",
+          "status": "v1.0.0",
+          "links": [
+            {
+              "label": "APK",
+              "url": "https://github.com/KrAG2000/creative-detour/releases/latest"
+            },
+            {
+              "label": "Code",
+              "url": "https://github.com/KrAG2000/creative-detour"
+            }
+          ]
+        },
+        {
+          "title": "PostPilot",
+          "technologies": "Python · LangGraph · pgvector",
+          "description": "A multi-agent Telegram bot that drafts daily posts per platform. A strategist, writer and critic loop over a Postgres-backed queue with RAG over each user's notes, checkpointed runs and shared daily quotas so it runs free.",
+          "note": "Plan, write, critique, repeat.",
+          "status": "Built",
+          "links": [
+            {
+              "label": "Code",
+              "url": "https://github.com/KrAG2000/OST-Multi-Agent-Teammate-Workflow"
+            }
+          ]
+        },
+        {
+          "title": "Huntboard",
+          "technologies": "Electron · TypeScript · SQLite",
+          "description": "A local-first desktop app for job searching. It collects openings from job boards, deduplicates and ranks them against your real experience, tailors your résumé without inventing anything and tracks every application.",
+          "note": "Your data, one folder.",
+          "status": "In progress",
+          "links": [
+            {
+              "label": "Code",
+              "url": "https://github.com/KrAG2000/HuntBoard"
+            }
+          ]
+        },
+        {
           "title": "Distributed Job Scheduler",
-          "technologies": "Node.js · Redis · PostgreSQL",
-          "description": "Built a scheduler with scheduled execution, concurrent workers, retries, idempotency, failure recovery and PostgreSQL job state.",
+          "technologies": "Node.js · Redis Streams · PostgreSQL",
+          "description": "Immediate, delayed and cron jobs with at-least-once delivery, a transactional outbox, fencing tokens, dead letter replay, priority lanes, rate limiting and Prometheus and Grafana observability.",
           "note": "Reliable jobs, with clear state.",
-          "status": "Built"
+          "status": "Built",
+          "links": [
+            {
+              "label": "Code",
+              "url": "https://github.com/KrAG2000/Job_Scheduler"
+            }
+          ]
         },
         {
           "title": "KragDB",
