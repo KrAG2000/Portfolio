@@ -370,6 +370,45 @@
           "description": "Building a database system from scratch to learn about storage, data management and database internals.",
           "note": "Learning from the storage layer up.",
           "status": "In progress"
+        },
+        {
+          "title": "Open-source contributions",
+          "technologies": "TypeScript · CI",
+          "description": "Merged fixes upstream: stabilized the queue panel hint in Breakscale's system design simulator to stop layout shifts, and fixed a failing new-service test phase in Stockroom.",
+          "note": "Small fixes, merged upstream.",
+          "status": "Merged",
+          "links": [
+            {
+              "label": "Breakscale PR",
+              "url": "https://github.com/xevrion/breakscale/pull/90"
+            }
+          ]
+        },
+        {
+          "title": "CodePlaneAI",
+          "technologies": "TypeScript · Node.js · GitHub API",
+          "description": "An orchestration service that turns a plain-English or Slack trigger into a structured plan, hands it to a coding agent, validates the result against protected-path policy, then branches, commits, pushes and opens a PR.",
+          "note": "From a message to a pull request.",
+          "status": "MVP",
+          "links": [
+            {
+              "label": "Code",
+              "url": "https://github.com/KrAG2000/CodePlaneAI"
+            }
+          ]
+        },
+        {
+          "title": "Campus Launch Desk",
+          "technologies": "JavaScript · Cursor · Grok",
+          "description": "My Global Hack Week: Hacktoberfest challenges in one repo: a tested Campus Week Board mini app, one prompt benchmarked across Grok 4.7, Composer 2.5 and Gemini 4, and a two-bot Grok launch relay.",
+          "note": "Seven challenges, one repo.",
+          "status": "In progress",
+          "links": [
+            {
+              "label": "Code",
+              "url": "https://github.com/KrAG2000/ghw-hacktoberfest"
+            }
+          ]
         }
       ]
     },
