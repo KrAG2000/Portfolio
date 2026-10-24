@@ -3,7 +3,7 @@
   "version": "v2",
   "chapter": "02",
   "company": "Fragmatic Technologies",
-  "period": "Apr 2024 - Present",
+  "period": "Apr 2024 - Sep 2026",
   "title": "Building backend and AI systems for production.",
   "summary": "Owned REST APIs, event-driven workflows and agentic AI systems using Node.js, PostgreSQL, Redis and AWS.",
   "disciplines": [
@@ -36,7 +36,7 @@
       "kicker": "Software engineer · India",
       "heading": "I build backend and AI systems that work",
       "emphasis": "in production.",
-      "intro": "At Fragmatic Technologies, I build and support REST APIs, event-driven workflows and AI features—from design and implementation through deployment and production support.",
+      "intro": "At Fragmatic Technologies, I built and supported REST APIs, event-driven workflows and AI features, from design and implementation through deployment and production support.",
       "email": "agni5kartik@gmail.com",
       "visualTitle": "AI + API",
       "visualDetail": "built for production",
@@ -59,12 +59,8 @@
       "type": "marquee",
       "items": [
         "Node.js",
-        "TypeScript",
         "REST APIs",
         "Agentic AI",
-        "LangGraph",
-        "Local-first AI",
-        "Knowledge graphs",
         "Event-driven workflows",
         "PostgreSQL",
         "AWS SQS"
@@ -80,8 +76,7 @@
       "lead": "My work spans APIs, asynchronous processing, AI agents, security and production support.",
       "points": [
         "I design, build, deploy and support backend features used by real products.",
-        "I focus on clear permissions, reliable workflows and systems that are easier to operate.",
-        "After hours I ship AI apps end to end: hackathon builds, local-first desktop and Android apps on open-weight models, and multi-agent workflows."
+        "I focus on clear permissions, reliable workflows and systems that are easier to operate."
       ]
     },
     {
@@ -90,7 +85,7 @@
       "label": "SELECTED SYSTEMS",
       "eyebrow": "What I've shipped",
       "heading": "APIs, agentic AI and reliable workflows.",
-      "note": "Full Stack Software Engineer at Fragmatic Technologies · Apr 2024  -  Present",
+      "note": "Full Stack Software Engineer at Fragmatic Technologies · Apr 2024  -  Sep 2026",
       "items": [
         {
           "type": "Backend / APIs",
@@ -220,28 +215,28 @@
       "label": "AFTER HOURS",
       "eyebrow": "The systems lab",
       "heading": "A job scheduler I built from scratch.",
-      "lead": "A separate project for learning how distributed jobs behave under failure.",
-      "description": "It runs immediate, delayed and cron jobs across any number of workers with at-least-once delivery. PostgreSQL is the source of truth, with a transactional outbox feeding Redis Streams. Workers hold leases with heartbeats and fencing tokens, crashed jobs are reclaimed, and failures back off with jitter into a dead letter queue. It ships with priority lanes, rate limiting, backpressure, Prometheus metrics and a Grafana dashboard.",
+      "lead": "A separate project for learning how distributed jobs behave.",
+      "description": "It uses Redis for queueing and PostgreSQL for job state. It supports scheduled execution, concurrent workers, retries, idempotency and failure recovery.",
       "nodes": [
         {
           "id": "intake",
           "name": "Intake",
-          "detail": "api + outbox"
+          "detail": "request"
         },
         {
           "id": "queue",
           "name": "Queue",
-          "detail": "redis streams"
+          "detail": "redis"
         },
         {
           "id": "worker",
           "name": "Worker",
-          "detail": "lease + retry"
+          "detail": "attempt"
         },
         {
           "id": "store",
           "name": "Store",
-          "detail": "postgres"
+          "detail": "durable"
         }
       ]
     },
@@ -250,111 +245,12 @@
       "index": "04",
       "label": "SIDE QUESTS",
       "eyebrow": "Learning by building",
-      "heading": "Apps I've shipped beyond production work.",
+      "heading": "Projects beyond production work.",
       "items": [
         {
-          "title": "Perforvisor",
-          "technologies": "TypeScript · LangGraph · Tiger Data · vLLM",
-          "description": "An AI advisor on open-weight models that reads public reviews (Google Maps via SerpApi), builds a knowledge graph and answers business owners and consumers with cited evidence. Hybrid retrieval and review trends run on Tiger Data Postgres (pgvector + TimescaleDB). The live demo is offline for now: I stopped the GCP GPU that served the models because of hosting cost.",
-          "note": "Reviews, turned into advice.",
-          "status": "Offline · GPU paused",
-          "links": [
-            {
-              "label": "Code",
-              "url": "https://github.com/KrAG2000/perforvisor"
-            }
-          ],
-          "achievement": "Winner · Best Use of Tiger Data · DEV Hacktoberfest Challenge 2"
-        },
-        {
-          "title": "Medication Safety Graph",
-          "technologies": "Node.js · FalkorDB · Cypher",
-          "description": "Built for Graph Hacks. Two agents walk a FalkorDB knowledge graph to flag medicine conflicts for caregivers, show the graph path behind every warning, name who to call and remember each clinician's decision for the next session.",
-          "note": "Every warning has a path.",
-          "status": "Live",
-          "links": [
-            {
-              "label": "Live app",
-              "url": "https://graph-hacks-medicine-safety-app-amber.vercel.app"
-            },
-            {
-              "label": "Demo",
-              "url": "https://youtu.be/wKzizR8iS9Y"
-            },
-            {
-              "label": "Write-up",
-              "url": "https://medium.com/@agni5kartik/can-mum-take-an-advil-building-a-medication-safety-checker-on-a-knowledge-graph-fca111808bb2"
-            },
-            {
-              "label": "Code",
-              "url": "https://github.com/KrAG2000/graph-hacks_medicine-safety-app"
-            }
-          ]
-        },
-        {
-          "title": "EchoNote",
-          "technologies": "Electron · whisper.cpp · llama.cpp",
-          "description": "A local-first voice-to-action desktop assistant. Press a shortcut, speak, and Gemma 4 turns the thought into a task, reminder, idea or note. Fully offline after setup, packaged as RPM, DEB and AppImage.",
-          "note": "Speak once, keep working.",
-          "status": "v1.0.5",
-          "links": [
-            {
-              "label": "Download",
-              "url": "https://github.com/KrAG2000/echonote/releases/latest"
-            },
-            {
-              "label": "Code",
-              "url": "https://github.com/KrAG2000/echonote"
-            }
-          ]
-        },
-        {
-          "title": "Creative Detour",
-          "technologies": "Kotlin · Compose · LiteRT-LM",
-          "description": "An Android app that finds free moments between steps, screen time and calendar events and nudges you off your phone. Nudges are written by Gemma 4 running on the device. No account, no server.",
-          "note": "Less screen, more world.",
-          "status": "v1.0.0",
-          "links": [
-            {
-              "label": "APK",
-              "url": "https://github.com/KrAG2000/creative-detour/releases/latest"
-            },
-            {
-              "label": "Code",
-              "url": "https://github.com/KrAG2000/creative-detour"
-            }
-          ]
-        },
-        {
-          "title": "PostPilot",
-          "technologies": "Python · LangGraph · pgvector",
-          "description": "A multi-agent Telegram bot that drafts daily posts per platform. A strategist, writer and critic loop over a Postgres-backed queue with RAG over each user's notes, checkpointed runs and shared daily quotas so it runs free.",
-          "note": "Plan, write, critique, repeat.",
-          "status": "Built",
-          "links": [
-            {
-              "label": "Code",
-              "url": "https://github.com/KrAG2000/OST-Multi-Agent-Teammate-Workflow"
-            }
-          ]
-        },
-        {
-          "title": "Huntboard",
-          "technologies": "Electron · TypeScript · SQLite",
-          "description": "A local-first desktop app for job searching. It collects openings from job boards, deduplicates and ranks them against your real experience, tailors your résumé without inventing anything and tracks every application.",
-          "note": "Your data, one folder.",
-          "status": "In progress",
-          "links": [
-            {
-              "label": "Code",
-              "url": "https://github.com/KrAG2000/HuntBoard"
-            }
-          ]
-        },
-        {
           "title": "Distributed Job Scheduler",
-          "technologies": "Node.js · Redis Streams · PostgreSQL",
-          "description": "Immediate, delayed and cron jobs with at-least-once delivery, a transactional outbox, fencing tokens, dead letter replay, priority lanes, rate limiting and Prometheus and Grafana observability.",
+          "technologies": "Node.js · Redis · PostgreSQL",
+          "description": "Built a scheduler with scheduled execution, concurrent workers, retries, idempotency, failure recovery and PostgreSQL job state.",
           "note": "Reliable jobs, with clear state.",
           "status": "Built",
           "links": [
@@ -372,19 +268,6 @@
           "status": "In progress"
         },
         {
-          "title": "Open-source contributions",
-          "technologies": "TypeScript · CI",
-          "description": "Merged fixes upstream: stabilized the queue panel hint in Breakscale's system design simulator to stop layout shifts, and fixed a failing new-service test phase in Stockroom.",
-          "note": "Small fixes, merged upstream.",
-          "status": "Merged",
-          "links": [
-            {
-              "label": "Breakscale PR",
-              "url": "https://github.com/xevrion/breakscale/pull/90"
-            }
-          ]
-        },
-        {
           "title": "CodePlaneAI",
           "technologies": "TypeScript · Node.js · GitHub API",
           "description": "An orchestration service that turns a plain-English or Slack trigger into a structured plan, hands it to a coding agent, validates the result against protected-path policy, then branches, commits, pushes and opens a PR.",
@@ -398,15 +281,15 @@
           ]
         },
         {
-          "title": "Campus Launch Desk",
-          "technologies": "JavaScript · Cursor · Grok",
-          "description": "My Global Hack Week: Hacktoberfest challenges in one repo: a tested Campus Week Board mini app, one prompt benchmarked across Grok 4.7, Composer 2.5 and Gemini 4, and a two-bot Grok launch relay.",
-          "note": "Seven challenges, one repo.",
+          "title": "Back to Basics",
+          "technologies": "C++ · Data structures",
+          "description": "A playground for implementing data structures from scratch in C++, from linked lists, stacks and queues to an LRU cache, building towards concurrency and system design.",
+          "note": "Implementation over problem count.",
           "status": "In progress",
           "links": [
             {
               "label": "Code",
-              "url": "https://github.com/KrAG2000/ghw-hacktoberfest"
+              "url": "https://github.com/KrAG2000/Back-To-Basics"
             }
           ]
         }
@@ -441,7 +324,7 @@
       "heading": "Experience and education.",
       "items": [
         {
-          "period": "Apr 2024  -  Present",
+          "period": "Apr 2024  -  Sep 2026",
           "title": "Fragmatic Technologies",
           "summary": "Production REST APIs, event-driven workflows, agentic AI and production support.",
           "detail": "Production APIs, event-driven infrastructure, provider-agnostic AI services and agentic product workflows."
@@ -466,11 +349,11 @@
       "index": "07",
       "label": "TOOLKIT",
       "eyebrow": "Technologies I work with",
-      "heading": "Tools I build with.",
+      "heading": "Tools I use in production.",
       "groups": [
         {
           "name": "Languages",
-          "items": ["JavaScript · TypeScript", "Python", "SQL", "C++ · Kotlin"]
+          "items": ["JavaScript", "Python", "SQL", "C++"]
         },
         {
           "name": "Backend",
@@ -478,15 +361,15 @@
             "Node.js",
             "REST APIs",
             "Express.js · Fastify",
-            "Bull · Redis Streams"
+            "Bull · async workers"
           ]
         },
         {
           "name": "Data",
           "items": [
-            "PostgreSQL · pgvector",
+            "PostgreSQL",
+            "Sequelize",
             "Redis",
-            "FalkorDB · Cypher",
             "Indexing · query tuning"
           ]
         },
@@ -494,18 +377,18 @@
           "name": "AI & security",
           "items": [
             "OpenAI · Gemini · Groq",
-            "LangGraph · tool calling · RAG",
-            "Ollama · vLLM · llama.cpp",
-            "OAuth · JWT · RBAC · audit logs"
+            "Tool calling · RAG",
+            "OAuth · JWT · RBAC",
+            "Audit logging"
           ]
         },
         {
           "name": "Cloud",
           "items": [
-            "AWS Lambda · SQS",
-            "API Gateway · CloudWatch",
-            "Docker · Kubernetes (GKE)",
-            "Vercel"
+            "AWS Lambda",
+            "SQS · API Gateway",
+            "CloudWatch · EC2",
+            "IAM · secrets · encryption"
           ]
         }
       ]
