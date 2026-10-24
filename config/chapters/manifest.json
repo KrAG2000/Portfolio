@@ -1,6 +1,16 @@
 {
   "chapters": [
-    { "file": "v2.json", "current": true },
-    { "file": "v1.json", "current": false }
+    {
+      "file": "v3.json",
+      "current": true
+    },
+    {
+      "file": "v2.json",
+      "current": false
+    },
+    {
+      "file": "v1.json",
+      "current": false
+    }
   ]
 }

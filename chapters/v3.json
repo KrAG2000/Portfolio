@@ -1,0 +1,508 @@
+{
+  "id": "v3",
+  "version": "v3",
+  "chapter": "03",
+  "company": "Builder's break · Open to work",
+  "period": "Sep 2026 - Present",
+  "title": "Between roles, building in the open.",
+  "summary": "After Fragmatic: five hackathons and challenges, a Best Use of Tiger Data win, two released local-first AI apps and a job search run on tools I built myself.",
+  "disciplines": [
+    "Hackathons",
+    "Local-first AI",
+    "Knowledge graphs",
+    "Multi-agent systems"
+  ],
+  "stats": [
+    {
+      "value": "1",
+      "label": "challenge win · Best Use of Tiger Data"
+    },
+    {
+      "value": "5",
+      "label": "hackathons and challenges entered"
+    },
+    {
+      "value": "2",
+      "label": "AI apps released with installers"
+    }
+  ],
+  "pageTitle": "Chapter 03 — Builder's break | Kartik Agnihotri",
+  "sections": [
+    {
+      "type": "hero",
+      "version": "v3",
+      "chapter": "03",
+      "company": "Builder's break · Open to work",
+      "kicker": "Software engineer · India · Open to work",
+      "heading": "Between roles, I kept",
+      "emphasis": "shipping.",
+      "intro": "Since leaving Fragmatic Technologies in September 2026, I’ve spent the time on hackathons, open source and learning: AI apps built against deadlines, open models running on laptops and phones, and backend systems hardened under failure. I’m looking for my next backend or AI engineering role.",
+      "email": "agni5kartik@gmail.com",
+      "action": "See what I built",
+      "visualTitle": "1 WIN",
+      "visualDetail": "Best Use of Tiger Data",
+      "footLeft": "Builder's break · Sep 2026 - Present",
+      "profile": [
+        {
+          "label": "Focus",
+          "value": "AI apps + backend"
+        },
+        {
+          "label": "Mode",
+          "value": "Hackathons + open source"
+        },
+        {
+          "label": "Status",
+          "value": "Open to work"
+        }
+      ]
+    },
+    {
+      "type": "marquee",
+      "items": [
+        "Hackathons",
+        "LangGraph",
+        "Local-first AI",
+        "Gemma 4",
+        "Knowledge graphs",
+        "Tiger Data",
+        "vLLM",
+        "Open source"
+      ]
+    },
+    {
+      "type": "intro",
+      "id": "about",
+      "index": "01",
+      "label": "THE THREAD",
+      "eyebrow": "A little context",
+      "heading": "A gap, used on purpose.",
+      "lead": "Between roles, I treated every week like a sprint: pick a challenge, ship by the deadline, write it up.",
+      "points": [
+        "Since September I’ve entered five hackathons and challenges, and Perforvisor won Best Use of Tiger Data in DEV’s Hacktoberfest Challenge 2.",
+        "I built tools for my own job search too. Huntboard ranks openings against my real experience and never invents a line on my résumé.",
+        "I went back to the systems I care about: a hardened rewrite of my job scheduler and fixes merged into open-source projects."
+      ]
+    },
+    {
+      "type": "work",
+      "index": "02",
+      "label": "SELECTED BUILDS",
+      "eyebrow": "What I shipped",
+      "heading": "Hackathon apps, knowledge graphs and local AI.",
+      "note": "Builder's break · Sep 2026  -  Present",
+      "items": [
+        {
+          "type": "Hackathon winner · Applied AI",
+          "title": "Perforvisor won Best Use of Tiger Data.",
+          "description": "Built for DEV’s Hacktoberfest Challenge 2. An AI advisor on open-weight models that reads public reviews (Google Maps via SerpApi), builds a knowledge graph and answers business owners and consumers with cited evidence. Hybrid retrieval and review trends run on Tiger Data Postgres with pgvector and TimescaleDB. The live demo is offline for now: I stopped the GCP GPU that served the models because of hosting cost.",
+          "technologies": [
+            "TypeScript · Fastify",
+            "LangGraph · vLLM",
+            "Tiger Data · pgvector · TimescaleDB"
+          ],
+          "links": [
+            {
+              "label": "Code",
+              "url": "https://github.com/KrAG2000/perforvisor"
+            }
+          ],
+          "diagramClass": "agent-diagram",
+          "animation": {
+            "label": "Review sync to cited advice",
+            "steps": [
+              {
+                "name": "SYNC",
+                "detail": "SERPAPI",
+                "status": "REVIEWS SYNCED"
+              },
+              {
+                "name": "GRAPH",
+                "detail": "BUILD",
+                "status": "GRAPH UPDATED"
+              },
+              {
+                "name": "RETRIEVE",
+                "detail": "HYBRID",
+                "status": "EVIDENCE RETRIEVED"
+              },
+              {
+                "name": "ADVISE",
+                "detail": "CITE",
+                "status": "ADVICE CITED"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Graph Hacks · Knowledge graphs",
+          "title": "A medication checker that shows its path.",
+          "description": "Built for Graph Hacks on FalkorDB. A safety agent walks the graph from patient to medicines, ingredients, drug classes, allergies and prescribers to flag conflicts for caregivers, shows the path behind every warning and names who to call. A caregiver assistant hands it questions, and clinician decisions are stored in the graph so both agents remember them next session.",
+          "technologies": [
+            "Node.js",
+            "FalkorDB · Cypher",
+            "Multi-agent memory"
+          ],
+          "links": [
+            {
+              "label": "Live app",
+              "url": "https://graph-hacks-medicine-safety-app-amber.vercel.app"
+            },
+            {
+              "label": "Demo",
+              "url": "https://youtu.be/wKzizR8iS9Y"
+            },
+            {
+              "label": "Write-up",
+              "url": "https://medium.com/@agni5kartik/can-mum-take-an-advil-building-a-medication-safety-checker-on-a-knowledge-graph-fca111808bb2"
+            },
+            {
+              "label": "Code",
+              "url": "https://github.com/KrAG2000/graph-hacks_medicine-safety-app"
+            }
+          ],
+          "diagramClass": "document-diagram",
+          "animation": {
+            "label": "Graph-based medication safety check",
+            "steps": [
+              {
+                "name": "PATIENT",
+                "detail": "RX",
+                "status": "MEDICINES LOADED"
+              },
+              {
+                "name": "WALK",
+                "detail": "GRAPH",
+                "status": "GRAPH WALKED"
+              },
+              {
+                "name": "FLAG",
+                "detail": "PATH",
+                "status": "CONFLICT EXPLAINED"
+              },
+              {
+                "name": "REVIEW",
+                "detail": "CLINICIAN",
+                "status": "DECISION STORED"
+              }
+            ],
+            "context": {
+              "title": "GRAPH MEMORY",
+              "detail": "SESSIONS + DECISIONS"
+            }
+          }
+        },
+        {
+          "type": "Local-first AI · Desktop + Android",
+          "title": "Two AI apps that never leave your device.",
+          "description": "EchoNote turns a spoken thought into a task, reminder, idea or note with whisper.cpp and Gemma 4 on llama.cpp, fully offline, packaged as RPM, DEB and AppImage. Creative Detour is an Android app that finds free moments in your day and nudges you off your phone, with Gemma 4 writing each nudge on the device through LiteRT-LM.",
+          "technologies": [
+            "whisper.cpp · llama.cpp",
+            "Kotlin · Compose · LiteRT-LM",
+            "Gemma 4 on-device"
+          ],
+          "links": [
+            {
+              "label": "EchoNote",
+              "url": "https://github.com/KrAG2000/echonote/releases/latest"
+            },
+            {
+              "label": "Creative Detour APK",
+              "url": "https://github.com/KrAG2000/creative-detour/releases/latest"
+            }
+          ],
+          "diagramClass": "event-diagram",
+          "animation": {
+            "label": "On-device voice to action",
+            "steps": [
+              {
+                "name": "CAPTURE",
+                "detail": "VOICE",
+                "status": "THOUGHT CAPTURED"
+              },
+              {
+                "name": "TRANSCRIBE",
+                "detail": "WHISPER",
+                "status": "SPEECH TRANSCRIBED"
+              },
+              {
+                "name": "ORGANIZE",
+                "detail": "GEMMA 4",
+                "status": "NOTE ORGANIZED"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "impact",
+      "items": [
+        {
+          "value": "1",
+          "label": "challenge win · Best Use of Tiger Data"
+        },
+        {
+          "value": "5",
+          "label": "hackathons and challenges entered"
+        },
+        {
+          "value": "2",
+          "label": "AI apps released with installers"
+        },
+        {
+          "value": "2",
+          "label": "pull requests merged upstream"
+        }
+      ]
+    },
+    {
+      "type": "lab",
+      "id": "lab",
+      "index": "03",
+      "label": "BACK TO THE LAB",
+      "eyebrow": "The systems lab",
+      "heading": "The job scheduler, hardened.",
+      "lead": "I came back to the scheduler I started in January and fixed what broke under failure.",
+      "description": "It runs immediate, delayed and cron jobs across any number of workers with at-least-once delivery. PostgreSQL is the source of truth, with a transactional outbox feeding Redis Streams. Workers hold leases with heartbeats and fencing tokens, crashed jobs are reclaimed, and failures back off with jitter into a dead letter queue. It ships with priority lanes, rate limiting, backpressure, Prometheus metrics and a Grafana dashboard.",
+      "nodes": [
+        {
+          "id": "intake",
+          "name": "Intake",
+          "detail": "api + outbox"
+        },
+        {
+          "id": "queue",
+          "name": "Queue",
+          "detail": "redis streams"
+        },
+        {
+          "id": "worker",
+          "name": "Worker",
+          "detail": "lease + retry"
+        },
+        {
+          "id": "store",
+          "name": "Store",
+          "detail": "postgres"
+        }
+      ]
+    },
+    {
+      "type": "projects",
+      "index": "04",
+      "label": "SIDE QUESTS",
+      "eyebrow": "Learning by building",
+      "heading": "More from the break.",
+      "items": [
+        {
+          "title": "PostPilot",
+          "technologies": "Python · LangGraph · pgvector",
+          "description": "A multi-agent Telegram bot that drafts daily posts per platform. A strategist, writer and critic loop over a Postgres-backed queue with RAG over each user's notes, checkpointed runs and shared daily quotas so it runs free.",
+          "note": "Plan, write, critique, repeat.",
+          "status": "Built",
+          "links": [
+            {
+              "label": "Code",
+              "url": "https://github.com/KrAG2000/OST-Multi-Agent-Teammate-Workflow"
+            }
+          ]
+        },
+        {
+          "title": "Huntboard",
+          "technologies": "Electron · TypeScript · SQLite",
+          "description": "A local-first desktop app for job searching. It collects openings from job boards, deduplicates and ranks them against your real experience, tailors your résumé without inventing anything and tracks every application.",
+          "note": "Your data, one folder.",
+          "status": "In progress",
+          "links": [
+            {
+              "label": "Code",
+              "url": "https://github.com/KrAG2000/HuntBoard"
+            }
+          ]
+        },
+        {
+          "title": "Campus Launch Desk",
+          "technologies": "JavaScript · Cursor · Grok",
+          "description": "My Global Hack Week: Hacktoberfest challenges in one repo: a tested Campus Week Board mini app, one prompt benchmarked across Grok 4.7, Composer 2.5 and Gemini 4, and a two-bot Grok launch relay.",
+          "note": "Seven challenges, one repo.",
+          "status": "In progress",
+          "links": [
+            {
+              "label": "Code",
+              "url": "https://github.com/KrAG2000/ghw-hacktoberfest"
+            }
+          ]
+        },
+        {
+          "title": "Open-source contributions",
+          "technologies": "TypeScript · CI",
+          "description": "Merged fixes upstream: stabilized the queue panel hint in Breakscale's system design simulator to stop layout shifts, and fixed a failing new-service test phase in Stockroom.",
+          "note": "Small fixes, merged upstream.",
+          "status": "Merged",
+          "links": [
+            {
+              "label": "Breakscale PR",
+              "url": "https://github.com/xevrion/breakscale/pull/90"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "principles",
+      "index": "05",
+      "label": "OFF THE PAGE",
+      "eyebrow": "How I spent the time",
+      "heading": "Ship. Learn. Repeat.",
+      "items": [
+        {
+          "title": "Ship to a deadline.",
+          "description": "A hackathon clock forces scope: one problem, one working demo, then a write-up."
+        },
+        {
+          "title": "Keep data on the device.",
+          "description": "EchoNote and Creative Detour run open models locally, with no account, no server and no telemetry."
+        },
+        {
+          "title": "Show the reasoning.",
+          "description": "Every warning in the medication graph has a path, and every Perforvisor answer cites its reviews."
+        }
+      ]
+    },
+    {
+      "type": "experience",
+      "index": "06",
+      "label": "EXPERIENCE",
+      "eyebrow": "The timeline",
+      "heading": "Experience and education.",
+      "items": [
+        {
+          "period": "Sep 2026  -  Present",
+          "title": "Builder's break",
+          "summary": "Hackathons, open-source contributions, local-first AI apps and a job search.",
+          "detail": "Won Best Use of Tiger Data in DEV’s Hacktoberfest Challenge 2 with Perforvisor."
+        },
+        {
+          "period": "Apr 2024  -  Sep 2026",
+          "title": "Fragmatic Technologies",
+          "summary": "Production REST APIs, event-driven workflows, agentic AI and production support.",
+          "detail": "Production APIs, event-driven infrastructure, provider-agnostic AI services and agentic product workflows."
+        },
+        {
+          "period": "Jul 2023  -  Apr 2024",
+          "title": "OpenSense Labs",
+          "summary": "Consent-aware tracking, customer segmentation, personalization, automation and a RAG proof of concept.",
+          "detail": "Consent-aware tracking, customer segmentation, personalization, automation and an early RAG proof of concept."
+        },
+        {
+          "period": "2019  -  2023",
+          "title": "Ujjain Engineering College",
+          "summary": "Bachelor of Technology in Mechanical Engineering.",
+          "detail": "The starting point for a lasting interest in how complex systems fit together.",
+          "education": true
+        }
+      ]
+    },
+    {
+      "type": "stack",
+      "index": "07",
+      "label": "TOOLKIT",
+      "eyebrow": "Technologies I picked up",
+      "heading": "Tools I built with on the break.",
+      "groups": [
+        {
+          "name": "Languages",
+          "items": ["TypeScript", "JavaScript", "Python", "Kotlin"]
+        },
+        {
+          "name": "AI & agents",
+          "items": [
+            "LangGraph",
+            "Ollama · vLLM",
+            "whisper.cpp · llama.cpp",
+            "Gemma 4 · LiteRT-LM"
+          ]
+        },
+        {
+          "name": "Data",
+          "items": [
+            "Tiger Data (Postgres)",
+            "pgvector · TimescaleDB",
+            "FalkorDB · Cypher",
+            "SQLite · Redis Streams"
+          ]
+        },
+        {
+          "name": "Apps",
+          "items": [
+            "Fastify · React",
+            "Electron",
+            "Jetpack Compose",
+            "Telegram bots"
+          ]
+        },
+        {
+          "name": "Infra",
+          "items": [
+            "Docker",
+            "Kubernetes (GKE)",
+            "Vercel · Vercel Queues",
+            "Prometheus · Grafana"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "contact",
+      "index": "08",
+      "label": "CONTACT",
+      "eyebrow": "Open to work",
+      "heading": "Hiring for backend or AI engineering? Let’s talk.",
+      "email": "agni5kartik@gmail.com",
+      "links": [
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/kartik--agnihotri"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/KrAG2000"
+        },
+        {
+          "label": "Medium",
+          "url": "https://medium.com/@agni5kartik"
+        }
+      ]
+    }
+  ],
+  "animation": {
+    "label": "Hackathon build loop",
+    "steps": [
+      {
+        "name": "PICK",
+        "detail": "CHALLENGE",
+        "status": "CHALLENGE PICKED"
+      },
+      {
+        "name": "BUILD",
+        "detail": "DEMO",
+        "status": "DEMO WORKING"
+      },
+      {
+        "name": "SHIP",
+        "detail": "DEADLINE",
+        "status": "SUBMITTED"
+      },
+      {
+        "name": "WRITE",
+        "detail": "UP",
+        "status": "STORY PUBLISHED"
+      }
+    ],
+    "context": {
+      "title": "OPEN TO WORK",
+      "detail": "NEXT ROLE"
+    }
+  }
+}
