@@ -59,8 +59,12 @@
       "type": "marquee",
       "items": [
         "Node.js",
+        "TypeScript",
         "REST APIs",
         "Agentic AI",
+        "LangGraph",
+        "Local-first AI",
+        "Knowledge graphs",
         "Event-driven workflows",
         "PostgreSQL",
         "AWS SQS"
@@ -76,7 +80,8 @@
       "lead": "My work spans APIs, asynchronous processing, AI agents, security and production support.",
       "points": [
         "I design, build, deploy and support backend features used by real products.",
-        "I focus on clear permissions, reliable workflows and systems that are easier to operate."
+        "I focus on clear permissions, reliable workflows and systems that are easier to operate.",
+        "After hours I ship AI apps end to end: hackathon builds, local-first desktop and Android apps on open-weight models, and multi-agent workflows."
       ]
     },
     {
@@ -215,28 +220,28 @@
       "label": "AFTER HOURS",
       "eyebrow": "The systems lab",
       "heading": "A job scheduler I built from scratch.",
-      "lead": "A separate project for learning how distributed jobs behave.",
-      "description": "It uses Redis for queueing and PostgreSQL for job state. It supports scheduled execution, concurrent workers, retries, idempotency and failure recovery.",
+      "lead": "A separate project for learning how distributed jobs behave under failure.",
+      "description": "It runs immediate, delayed and cron jobs across any number of workers with at-least-once delivery. PostgreSQL is the source of truth, with a transactional outbox feeding Redis Streams. Workers hold leases with heartbeats and fencing tokens, crashed jobs are reclaimed, and failures back off with jitter into a dead letter queue. It ships with priority lanes, rate limiting, backpressure, Prometheus metrics and a Grafana dashboard.",
       "nodes": [
         {
           "id": "intake",
           "name": "Intake",
-          "detail": "request"
+          "detail": "api + outbox"
         },
         {
           "id": "queue",
           "name": "Queue",
-          "detail": "redis"
+          "detail": "redis streams"
         },
         {
           "id": "worker",
           "name": "Worker",
-          "detail": "attempt"
+          "detail": "lease + retry"
         },
         {
           "id": "store",
           "name": "Store",
-          "detail": "durable"
+          "detail": "postgres"
         }
       ]
     },
@@ -317,11 +322,11 @@
       "index": "07",
       "label": "TOOLKIT",
       "eyebrow": "Technologies I work with",
-      "heading": "Tools I use in production.",
+      "heading": "Tools I build with.",
       "groups": [
         {
           "name": "Languages",
-          "items": ["JavaScript", "Python", "SQL", "C++"]
+          "items": ["JavaScript · TypeScript", "Python", "SQL", "C++ · Kotlin"]
         },
         {
           "name": "Backend",
@@ -329,15 +334,15 @@
             "Node.js",
             "REST APIs",
             "Express.js · Fastify",
-            "Bull · async workers"
+            "Bull · Redis Streams"
           ]
         },
         {
           "name": "Data",
           "items": [
-            "PostgreSQL",
-            "Sequelize",
+            "PostgreSQL · pgvector",
             "Redis",
+            "FalkorDB · Cypher",
             "Indexing · query tuning"
           ]
         },
@@ -345,18 +350,18 @@
           "name": "AI & security",
           "items": [
             "OpenAI · Gemini · Groq",
-            "Tool calling · RAG",
-            "OAuth · JWT · RBAC",
-            "Audit logging"
+            "LangGraph · tool calling · RAG",
+            "Ollama · vLLM · llama.cpp",
+            "OAuth · JWT · RBAC · audit logs"
           ]
         },
         {
           "name": "Cloud",
           "items": [
-            "AWS Lambda",
-            "SQS · API Gateway",
-            "CloudWatch · EC2",
-            "IAM · secrets · encryption"
+            "AWS Lambda · SQS",
+            "API Gateway · CloudWatch",
+            "Docker · Kubernetes (GKE)",
+            "Vercel"
           ]
         }
       ]
