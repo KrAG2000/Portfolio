@@ -254,20 +254,17 @@
       "items": [
         {
           "title": "Perforvisor",
-          "technologies": "TypeScript · Fastify · LangGraph · vLLM",
-          "description": "An AI advisor on open-weight models that reads public reviews (Google Maps via SerpApi), builds a knowledge graph and answers business owners and consumers with cited evidence. Resumable sync on Vercel Queues, models served with vLLM on GKE.",
+          "technologies": "TypeScript · LangGraph · Tiger Data · vLLM",
+          "description": "An AI advisor on open-weight models that reads public reviews (Google Maps via SerpApi), builds a knowledge graph and answers business owners and consumers with cited evidence. Hybrid retrieval and review trends run on Tiger Data Postgres (pgvector + TimescaleDB). The live demo is offline for now: I stopped the GCP GPU that served the models because of hosting cost.",
           "note": "Reviews, turned into advice.",
-          "status": "Live",
+          "status": "Offline · GPU paused",
           "links": [
-            {
-              "label": "Live app",
-              "url": "https://perforvisor.vercel.app"
-            },
             {
               "label": "Code",
               "url": "https://github.com/KrAG2000/perforvisor"
             }
-          ]
+          ],
+          "achievement": "Winner · Best Use of Tiger Data · DEV Hacktoberfest Challenge 2"
         },
         {
           "title": "Medication Safety Graph",
